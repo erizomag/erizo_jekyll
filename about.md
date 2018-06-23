@@ -4,15 +4,25 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Erizo: A Journal of the Arts publishes new poetry and art from across the Americas.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+To submit poems or visual art, or to inquire about translating, please email us at editors@erizoerizo.com. We are also interested collaborations between poets and artists.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Editors:
+- Nika Chilewich
+- Aron Chilewich
 
+Print Design:
+- Leonel Salguero
+- Carla Valdivia Nakatani (Studio Katsu)
 
-[jekyll-organization]: https://github.com/jekyll
+Web Design and Development:
+- Lisa Sy
+- Carlos Sanchez III
+
+Erizo functions as a non-profit organization. To give a tax deductible gift to Erizo, please visit our Fractured Atlas sponsored page.
+
+Generous support has been provided by the Community of Literary Magazines and Presses (CLMP) and Ruchika Garga, as well as the the individuals listed below: 
+
+Sandy and Joe Sultan, Forrest Gander, Jane Gregory, Peter Cohen, Hadley and Peter Arnold, Soomi Ko, Naomi and Adi Hasak, Judith and Nehemiah Hasak, Amit and Etti Hasak, Barbara and Eddie Goldberg, Marcy and Jamie Plunkett, Salamo Manetti-Lax, Karla Aguiñiga, Kit Turen, Michael Waldrep, Will Wiebe, Leah Plunkett, Annie Chu, Jonathan Hasak, Tall Hasak, Joshua Fjelstad, Wally and Carla Reuben-Carbone, Francesca Moree, Lauren and Eli Naor, Lauren Kim, Jason Lester, Leonid Liu, Claire Wiss, Alissa Goldberg, Carlos Sanchez, Carol Armstrong, Gary Gailes, Jim & Cathy Grodzins, Pamela Weintraub, and Martha Hipley.
+

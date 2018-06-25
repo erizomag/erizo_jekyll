@@ -2,32 +2,17 @@
 # Front Matter Declaration
 ---
 
+// Library Plug-Ins
 @import "bourbon/bourbon";
 @import "neat/neat";
 
+// Custom Default Style Libraries
+@import "variables";
+@import "typography";
+@import "container";
 
-p {
-  font-size: 2em;
-}
-
-$sans-serif-primary: "BagnardRegular", "georgia";
-$sans-serif-secondary: "tk-utopia-std", "georgia";
-
-$body-background: #ffffff;
-
-$base-font-size: 1em;
-
-h1 {
-  font-family: $sans-serif-primary;
-  font-size: $base-font-size * 4;
-}
-
-h2 {
-  font-family: $sans-serif-secondary;
-  font-size: $base-font-size * 4;
-}
-
-p {
-  font-family: $sans-serif-secondary;
-  font-size: $base-font-size;
-}
+// Custom Component Libraries
+@import "main";
+@import "header";
+@import "nav";
+@import "footer";

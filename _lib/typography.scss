@@ -1,0 +1,21 @@
+$sans-serif-primary: "BagnardRegular", "georgia";
+$sans-serif-secondary: "tk-utopia-std", "georgia";
+
+$base-font-size: 1em;
+
+h1 {
+  font-family: $sans-serif-primary;
+  font-size: $base-font-size * 4;
+}
+
+h2 {
+  font-family: $sans-serif-secondary;
+  font-size: $base-font-size * 4;
+}
+
+p,
+a {
+  font-family: $sans-serif-secondary;
+  font-size: $base-font-size * 1.25;
+  line-height: $base-font-size * 1.5;
+}

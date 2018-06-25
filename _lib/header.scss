@@ -1,0 +1,15 @@
+.site_header {
+  @include grid-column(12);
+  display: block;
+  overflow: hidden;
+}
+
+.site_header_text_logo {
+  float: left;
+  font-size: $base-font-size * 1.5;
+  text-transform: uppercase;
+}
+
+.site_header_text_logo a {
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.site_menu {
+  float: right;
+
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 12px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

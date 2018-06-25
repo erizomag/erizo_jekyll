@@ -1,0 +1,47 @@
+$large-screen: 900px;
+
+// Media
+$media-tablet: 600px;
+$media-desktop: 1100px;
+$media-desktop-large: 1300px;
+
+// Grids
+$neat-grid: (
+  columns: 12,
+  gutter: 1rem,
+);
+
+$neat-grid-tablet: (
+  gutter: 2rem,
+  media: $media-tablet,
+);
+
+$neat-grid-desktop: (
+  gutter: 2rem,
+  media: $media-desktop,
+);
+
+$neat-grid-desktop-large: (
+  gutter: 2rem,
+  media: $media-desktop-large,
+);
+
+// Colors
+$black: #222222;
+$dark-grey: #555555;
+$red: #D0021B;
+
+// Type Colors and Context
+$base-font-color: $black;
+$secondary-font-color: $dark-grey;
+$accent-font-color: $red;
+
+// Border
+$base-border-width: 2px;
+$base-border: $base-border-width solid $base-font-color;
+
+// Spacing, Margins, Gutter
+$base-unit: 1em;
+
+$base-spacing: $base-unit * 1.5;
+$secondary-spacing: $base-unit;

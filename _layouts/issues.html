@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<section class="issues">
+  <h2 class="issues_title">Journal</h2>
+  <div class="issues_body_content">
+    {% for issue in site.issues %}
+      {{ issue.title[0] }}
+    {% endfor %}
+  </div>
+</section>

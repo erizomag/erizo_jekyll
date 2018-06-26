@@ -4,17 +4,10 @@
   border-top: $base-border;
   padding-top: $base-spacing * 2;
   margin-top: $base-spacing * 2;
-  // @include grid-container();
 }
 
-// $site_footer_content: (
-//   columns: 2,
-//   gutter: $base-spacing,
-// );
-//
 .site_footer_content {
   @include grid-column(12);
-  // @include grid-container();
   @include grid-collapse();
 
 
@@ -22,7 +15,6 @@
     @include grid-column(12);
 
     @include grid-media($neat-grid-tablet) {
-      // @include grid-collapse();
       @include grid-column(6);
     }
   }

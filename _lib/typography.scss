@@ -1,11 +1,23 @@
 $sans-serif-primary: "BagnardRegular", "georgia";
-$sans-serif-secondary: "tk-utopia-std", "georgia";
+$sans-serif-secondary: "utopia-std", "georgia";
 
 $base-font-size: 1em;
 
+$rhythm_desktop : 4;
+$rhythm_tablet : 3;
+$rhythm_mobile : 2;
+
 h1 {
   font-family: $sans-serif-primary;
-  font-size: $base-font-size * 4;
+  font-size: $base-font-size * $rhythm_mobile;
+
+  @include grid-media($neat-grid-tablet) {
+    font-size: $base-font-size * $rhythm_tablet;
+  }
+
+  @include grid-media($neat-grid-desktop) {
+    font-size: $base-font-size * $rhythm_desktop;
+  }
 }
 
 h2 {
@@ -13,9 +25,57 @@ h2 {
   font-size: $base-font-size * 4;
 }
 
-p,
-a {
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3,
+h4,
+h5,
+h6 {
   font-family: $sans-serif-secondary;
+}
+
+p,
+a,
+small,
+caption {
+  font-family: $sans-serif-secondary;
+}
+
+p,
+a,
+li {
   font-size: $base-font-size * 1.25;
-  line-height: $base-font-size * 1.5;
+  line-height: $base-font-size * 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: $base-font-size * 1.25;
+}
+
+a {
+  text-decoration: none;
+
+  &:link {
+    color: $link-base-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+  }
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:active {
+    color: $link-active-color;
+  }
 }

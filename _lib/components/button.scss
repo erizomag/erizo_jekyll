@@ -1,0 +1,27 @@
+[class^="btn-"] {
+  font-size: $base-font-size;
+  display: inline-block;
+  padding: ($secondary-spacing * 0.75) $secondary-spacing;
+}
+
+a.btn-base {
+  color: $base-background-color;
+  background-color: $base-font-color;
+  border: $base-border-width solid $base-font-color;
+
+  &:hover {
+    background-color: $link-hover-color;
+    border-color: $link-hover-color;
+  }
+}
+
+a.btn-secondary {
+  color: $link-base-color;
+  background-color: $base-background-color;
+  border: $base-border;
+
+  &:hover {
+    color: $link-hover-color;
+    border-color: lighten($link-hover-color, 20%);
+  }
+}

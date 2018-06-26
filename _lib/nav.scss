@@ -4,7 +4,7 @@
   ul {
     li {
       display: inline-block;
-      margin-right: 12px;
+      margin-right: $base-spacing;
 
       &:last-child {
         margin-right: 0;

@@ -1,2 +1,22 @@
-.container {
+.home_image {
+  @include grid-column(12);
+  height: auto;
+}
+
+.home_body_content {
+  @include grid-column(12);
+
+  @include grid-media($neat-grid-desktop) {
+    @include grid-shift(3);
+    @include grid-column(6);
+  }
+
+  @include grid-media($neat-grid-desktop-large) {
+    @include grid-shift(2);
+    @include grid-column(8);
+  }
+}
+
+.home_body_content_title {
+  text-align: center;
 }

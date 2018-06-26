@@ -1,11 +1,42 @@
 .site_footer {
   @include grid-column(12);
+  @include clearfix;
   border-top: $base-border;
+  padding-top: $base-spacing * 2;
+  margin-top: $base-spacing * 2;
+  // @include grid-container();
+}
+
+// $site_footer_content: (
+//   columns: 2,
+//   gutter: $base-spacing,
+// );
+//
+.site_footer_content {
+  @include grid-column(12);
+  // @include grid-container();
+  @include grid-collapse();
+
 
   .col_2 {
+    @include grid-column(12);
 
-    @include grid-media($neat-grid-desktop) {
+    @include grid-media($neat-grid-tablet) {
+      // @include grid-collapse();
       @include grid-column(6);
     }
   }
+}
+
+.site_footer_endnote {
+  @include grid-column(12);
+  display: block;
+  margin-bottom: $base-spacing;
+  overflow: hidden;
+  text-align: center;
+}
+
+.site_footer_brand_logo {
+  margin-bottom: $base-spacing / 4;
+  text-transform: uppercase;
 }

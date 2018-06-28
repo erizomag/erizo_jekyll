@@ -1,11 +1,14 @@
 ---
 object_id: 2
-title: Issue 2
+title: "Issue 2"
 release_year: 2018
-image: "/assets/images/placeholder_image.jpg"
+image: "/assets/images/placeholder_issue_2.jpg"
 layout: issue_detail
 price: $15.00
-excerpt: Lorem ipsum excerpt for issue 2
+excerpt: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud
 ---
 
 ### Poetry

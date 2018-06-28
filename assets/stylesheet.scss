@@ -1,10 +1,13 @@
 ---
 # Front Matter Declaration
 ---
+@charset "utf-8";
 
 // Library Plug-Ins
 @import "bourbon/bourbon";
 @import "neat/neat";
+@import "fontawesome/fontawesome";
+@import "helpers/aspect_ratio";
 
 // Custom Default Style Libraries
 @import "variables";
@@ -17,3 +20,4 @@
 @import "header";
 @import "nav";
 @import "footer";
+@import "issues";

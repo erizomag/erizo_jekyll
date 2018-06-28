@@ -1,7 +1,19 @@
 [class^="btn-"] {
+  box-sizing: border-box;
+  display: block;
   font-size: $base-font-size;
-  display: inline-block;
-  padding: ($secondary-spacing * 0.75) $secondary-spacing;
+  padding-bottom: ($secondary-spacing * 0.75);
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: ($secondary-spacing * 0.75);
+  text-align: center;
+  width: 100%;
+
+  @include grid-media($neat-grid-tablet) {
+    display: inline-block;
+    padding: ($secondary-spacing * 0.75) $secondary-spacing;
+    width: auto;
+  }
 }
 
 a.btn-base {

@@ -1,14 +1,19 @@
+# ===========================#
+# General Site Config
+# ===========================#
+
 title: Erizo
 email: chilewich@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   A Journal of the Arts is a bilingual publication of new poetry and visual art
   from the Americas. Un diario de las artes publica nuerva poesía y arte de las
   Américas.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "http://erizo.siteleaf.net"
 github_username:  erizo_mag
 
 markdown: kramdown
+
 plugins:
   - jekyll-feed
 
@@ -18,9 +23,8 @@ sass:
 
 collections:
   issues:
-    collection_dir: issues
+    collection_dir: _issues
     output: true
-    permalink: /:collection/:name
 
 defaults:
   -scope:
@@ -29,15 +33,10 @@ defaults:
   values:
     layout: "issue_detail"
 
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# ===========================#
+# File Inclusions/Exclusions
+# ===========================#
+#
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -30,19 +30,22 @@ $neat-grid-desktop-large: (
 $black: #222222;
 $dark-grey: #555555;
 $red: #D0021B;
+$blue: #1C71D8;
 $white: #FFFFFF;
 
 // Type Colors Declaration
 $base-font-color: $black;
 $secondary-font-color: $dark-grey;
-$accent-font-color: $red;
+$accent-font-color: $blue;
 $base-background-color: $white;
 
 // Type Context Declaration
 $link-base-color: $base-font-color;
-$link-hover-color: lighten($link-base-color, 20%);
+// $link-hover-color: lighten($link-base-color, 20%);
+$link-hover-color: $accent-font-color;
 $link-visited-color: $base-font-color;
-$link-active-color: lighten($link-base-color, 20%);
+// $link-active-color: lighten($link-base-color, 20%);
+$link-active-color: $accent-font-color;
 
 // Border
 $base-border-width: 2px;
@@ -53,3 +56,4 @@ $base-unit: 1em;
 
 $base-spacing: $base-unit * 1.5;
 $secondary-spacing: $base-unit;
+$tertiary-spacing: $base-unit / 2;

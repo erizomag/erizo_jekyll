@@ -3,10 +3,33 @@ layout: default
 ---
 
 <section class="issues">
-  <h2 class="issues_title">Journal</h2>
-  <div class="issues_body_content">
-    {% for issue in site.issues %}
-      {{ issue.title[0] }}
-    {% endfor %}
-  </div>
+  {% for i in site.issues reversed %}
+    <div class="issues_body_list_item">
+      <figure class="issues_body_list_item_image">
+        <img src="{{ i.image }}" />
+      </figure>
+      <div class="issues_body_list_item_description">
+        <h2 class="title">
+          {{ i.title }}
+        </h2>
+        <p class="description">
+          {{ i.excerpt }}
+        </p>
+        <small class="year">
+          Release: {{ i.release_year }}
+        </small>
+        <small class="price">
+          Price {{ i.price }}
+        </small>
+        <ul class="issues_action_row">
+          <li class="issues_action_row_item">
+            <a href=" {{ i.url }}" class="btn-secondary">Learn More</a>
+          </li>
+          <li class="issues_action_row_item">
+            <a href="/" class="btn-base">Order {{ i.title }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
 </section>

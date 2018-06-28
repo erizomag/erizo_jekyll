@@ -1,5 +1,6 @@
 .site_header {
   @include grid-column(12);
+  border-bottom: $base-border;
   display: block;
   overflow: hidden;
 }
@@ -7,6 +8,7 @@
 .site_header_text_logo {
   float: left;
   font-size: $base-font-size * 1.5;
+  margin-top: $tertiary-spacing;
   text-transform: uppercase;
 }
 

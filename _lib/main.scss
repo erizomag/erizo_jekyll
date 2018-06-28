@@ -4,7 +4,6 @@
 }
 
 .home_body_content {
-  @include grid-column(12);
 
   @include grid-media($neat-grid-desktop) {
     @include grid-shift(3);

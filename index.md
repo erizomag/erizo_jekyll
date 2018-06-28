@@ -13,6 +13,3 @@ vestibulum, quam lorem hendrerit justo, non dictum tellus nulla eu urna.
 Daniel Saldaña París, Mónica de la Torre, Ricardo Cázares, Joshua Edwards,
 Gladys Gonzalez, Lizzie Davis, Héctor Hernández Montecinos, Katherine Hedeen,
 etc filler names
-
-[Learn More](link){: .btn-secondary}
-[Order Issue 2](link){: .btn-base}

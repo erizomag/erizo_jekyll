@@ -3,24 +3,63 @@ layout: default
 ---
 
 <section class="issue_detail">
-  {% if page.title %}
-    <h1>
-      {{ page.title }}
-    </h1>
-  {% endif %}
-
   {% if page.image %}
-    <figure>
+    <figure class="issue_detail_image">
       <img src="{{ page.image }}" />
     </figure>
   {% endif %}
 
-  {% if page.price %}
-    <h3>Price</h3>
-    <p>{{ page.price }}</p>
-  {% endif %}
+  <div class="issue_detail_header">
+    {% if page.title %}
+      <h1>
+        {{ page.title }}
+      </h1>
+    {% endif %}
 
-  <p>
+    {% if page.excerpt %}
+      <div class = "issue_detail_excerpt">
+        <p>{{ page.excerpt }}</p>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="issue_detail_meta_body">
+
+    <ul class="issue_detail_meta_list">
+
+      {% if page.price %}
+        <li class="issue_detail_meta_list_item">
+          <h4 class="issue_detail_meta_title">
+            Price
+          </h4>
+          <p class="issue_detail_meta_description">
+            {{ page.price }}
+          </p>
+        </li>
+      {% endif %}
+
+      {% if page.release_year %}
+        <li class="issue_detail_meta_list_item">
+          <h4 class="issue_detail_meta_title">
+            Release
+          </h4>
+          <p class="issue_detail_meta_description">
+            {{ page.release_year }}
+          </p>
+        </li>
+      {% endif %}
+
+    </ul>
+
+    <div class="issue_detail_meta_cta">
+      <a href="/" class="btn-base">
+        Order {{ page.title }}
+      </a>
+    </div>
+
+  </div>
+
+  <div class="issue_detail_toc">
     {{ content }}
-  </p>
+  </div>
 </section>

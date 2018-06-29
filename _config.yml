@@ -9,7 +9,7 @@ description: >-
   from the Americas. Un diario de las artes publica nuerva poesía y arte de las
   Américas.
 baseurl: ""
-url: "http://erizo.siteleaf.net"
+url: "http://erizo-jekyll.siteleaf.net"
 github_username:  erizo_mag
 
 markdown: kramdown

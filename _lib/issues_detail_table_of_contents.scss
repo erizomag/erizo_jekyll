@@ -1,15 +1,15 @@
 .issue_detail_table_of_contents {
   border-top: $base-border;
-  padding-top: $base-spacing;
+  padding-top: $base_spacing_mobile;
 
   @include grid-media($neat-grid-tablet) {
+    padding-top: $base_spacing_desktop;
     column-count: 2;
-    column-gap: $base-spacing;
   }
 
   @include grid-media($neat-grid-desktop) {
     column-count: 3;
-    column-gap: $base-spacing;
+    column-gap: $base_spacing_desktop;
   }
 
   h3 {
@@ -27,7 +27,11 @@
 
   hr {
     border: none;
-    margin-bottom: $base-spacing * 2;
+    margin-bottom: $base_spacing_mobile;
+
+    @include grid-media($neat-grid-tablet) {
+      margin-bottom: $base_spacing_desktop;
+    }
   }
 
 

@@ -26,103 +26,47 @@ $issues_body_list_item: (
   }
 }
 
-.issues_body_list_item_image img {
-  @include clearfix;
-  width: 100%;
-  height: auto;
+.issues_body_list_item_image {
+  a {
+    &:hover {
+      img {
+        opacity: 1;
+        // transform: scale(1.05);
+      }
+    }
+  }
+
+  img {
+    @include clearfix;
+    opacity: 0.95;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    // transition: all .2s ease-in-out;
+  }
 }
 
 .issues_body_list_item_description {
   .title {
+    font-family: $serif-primary;
     margin: 0;
   }
 
   .description {
     margin-top: 0;
   }
-}
 
+  .meta_list {
+    padding-left: 0;
 
-.issues_action_row {
-  padding-left: 0;
+    .meta_list_item {
+      display: inline-block;
+      list-style-type: none;
+      margin-right: $base-spacing * 2;
 
-  .issues_action_row_item {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: $tertiary-spacing;
+      .meta_description {
+        margin: 0;
+      }
+    }
   }
-}
-
-// --------------------------- /
-// Issues Detail
-// --------------------------- /
-
-.issue_detail_excerpt {
-  p {
-    font-size: $base-font-size * 1.5;
-  }
-}
-
-.issue_detail_image {
-  @include aspect-ratio(16, 9);
-}
-
-.issue_detail_image img {
-  object-fit: cover;
-  max-height: fit-content;
-  width: 100%;
-}
-
-.issue_detail_header {
-  // margin: $base-spacing auto;
-  // padding-bottom: $base-spacing;
-}
-
-.issue_detail_meta_title {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-
-  @include grid-media($neat-grid-tablet) {
-    font-size: $base-font-size;
-  }
-
-}
-
-.issue_detail_meta_description {
-  margin: 0;
-}
-
-.issue_detail_meta_body {
-  display: flex;
-  align-items: center;
-  // justify-content: space-between;
-  margin-bottom: $base-spacing;
-}
-
-.issue_detail_meta_list,
-.issue_detail_meta_cta {
-  display: inline-block;
-}
-
-.issue_detail_meta_list {
-  padding-left: 0;
-
-  .issue_detail_meta_list_item {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: $base-spacing * 2;
-  }
-}
-
-.issue_detail_meta_cta {
-  .btn-base {
-    font-size: $base-font-size * 1.25;
-  }
-}
-
-.issue_detail_toc {
-  border-top: $base-border;
-  padding-top: $base-spacing;
-  column-count: 2;
-  column-gap: $base-spacing;
 }

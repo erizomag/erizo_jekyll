@@ -2,11 +2,11 @@
   @include grid-column(12);
   @include clearfix;
   border-top: $base-border;
-  margin-top: $base-spacing / 1.5;
-  padding-top: $base-spacing * 2;
+  margin-top: $base_spacing_mobile;
+  padding-top: $base_spacing_mobile;
 
   @include grid-media($neat-grid-tablet) {
-    margin-top: $base-spacing * 2;
+    margin-top: $base_spacing_desktop;
   }
 }
 

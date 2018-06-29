@@ -2,17 +2,21 @@
   box-sizing: border-box;
   display: block;
   font-size: $base-font-size;
-  padding-bottom: ($secondary-spacing * 0.75);
+  padding-bottom: $base_spacing_down_2;
   padding-left: 0;
   padding-right: 0;
-  padding-top: ($secondary-spacing * 0.75);
+  padding-top: $base_spacing_down_2;
   text-align: center;
   width: 100%;
 
   @include grid-media($neat-grid-tablet) {
     display: inline-block;
-    padding: ($secondary-spacing * 0.75) $secondary-spacing;
+    padding: $base_spacing_down_1 $base_spacing;
     width: auto;
+  }
+
+  &:hover {
+    text-decoration: none;
   }
 }
 

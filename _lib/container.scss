@@ -9,9 +9,9 @@
   @include grid-column(12);
   display: block;
   overflow: hidden;
-  margin-top: $base-spacing / 1.5;
+  margin-top: $base_spacing_mobile;
 
   @include grid-media($neat-grid-tablet) {
-    margin-top: $base-spacing;
+    margin-top: $base_spacing_desktop;
   }
 }

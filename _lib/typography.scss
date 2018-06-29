@@ -1,5 +1,5 @@
-$sans-serif-primary: "BagnardRegular", "georgia";
-$sans-serif-secondary: "utopia-std", "georgia";
+$serif-primary: "BagnardRegular", "georgia";
+$serif-secondary: "utopia-std", "georgia";
 
 $base-font-size: 1em;
 
@@ -8,7 +8,7 @@ $rhythm_tablet : 3;
 $rhythm_mobile : 2;
 
 h1 {
-  font-family: $sans-serif-primary;
+  font-family: $serif-primary;
   font-size: $base-font-size * $rhythm_mobile;
 
   @include grid-media($neat-grid-tablet) {
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-family: $sans-serif-secondary;
+  font-family: $serif-secondary;
   font-size: $base-font-size * 1.5;
 
   @include grid-media($neat-grid-tablet) {
@@ -42,14 +42,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $sans-serif-secondary;
+  font-family: $serif-secondary;
 }
 
 p,
 a,
 small,
 caption {
-  font-family: $sans-serif-secondary;
+  font-family: $serif-secondary;
 }
 
 p,
@@ -78,6 +78,7 @@ a {
 
   &:hover {
     color: $link-hover-color;
+    text-decoration: underline;
   }
 
   &:visited {
@@ -91,4 +92,12 @@ a {
 
 figure {
   margin: 0;
+}
+
+ul {
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+  }
 }

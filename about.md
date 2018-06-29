@@ -2,9 +2,9 @@
 layout: about
 title: About
 permalink: /about/
+page_excerpt:  >-
+  Erizo: A Journal of the Arts publishes new poetry and art from across the Americas.
 ---
-
-# Erizo: A Journal of the Arts publishes new poetry and art from across the Americas.
 
 To submit poems or visual art, or to inquire about translating, please email us at editors@erizoerizo.com. We are also interested collaborations between poets and artists.
 

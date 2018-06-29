@@ -1,0 +1,15 @@
+.issues_action_row {
+  padding-left: 0;
+
+  .issues_action_row_item {
+    display: block;
+    list-style-type: none;
+    margin-bottom: $tertiary-spacing;
+
+    @include grid-media($neat-grid-tablet) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: $tertiary-spacing;
+    }
+  }
+}

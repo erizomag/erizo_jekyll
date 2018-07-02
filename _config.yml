@@ -32,11 +32,3 @@ defaults:
     type: "issues"
   values:
     layout: "issue_detail"
-
-# ===========================#
-# File Inclusions/Exclusions
-# ===========================#
-#
-exclude:
-  - Gemfile
-  - Gemfile.lock

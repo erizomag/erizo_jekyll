@@ -1,8 +1,5 @@
 ---
 title: Erizo
-<<<<<<< HEAD
-timezone: UTC
-=======
 email: chilewich@gmail.com
 description: >
   A Journal of the Arts is a bilingual publication of new poetry and visual art
@@ -21,7 +18,6 @@ sass:
   sass_dir: _lib
   style: compressed
 
->>>>>>> gh-pages
 collections:
   posts:
     title: Posts
@@ -29,8 +25,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-<<<<<<< HEAD
-=======
 
 defaults:
   -scope:
@@ -38,4 +32,3 @@ defaults:
     type: "issues"
   values:
     layout: "issue_detail"
->>>>>>> gh-pages

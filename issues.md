@@ -1,7 +1,7 @@
 ---
 title: Journal
+permalink: "/issues/"
 layout: issues
-permalink: /issues/
 ---
 
 Hello this is the index for Journal

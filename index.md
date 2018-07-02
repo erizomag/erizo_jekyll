@@ -1,5 +1,7 @@
 ---
 layout: home
+title: Home
+permalink: /
 ---
 
 {: .home_body_content_title}

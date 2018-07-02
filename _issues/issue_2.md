@@ -1,14 +1,4 @@
 ---
-<<<<<<< HEAD
-title: Issue 2
-object_id: 2
-release_year: 2018
-image: "/assets/images/placeholder_issue_2.jpg"
-layout: issue_detail
-price: "$15.00"
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-=======
 
 page_title: "Issue 2"
 release_year: "2018"
@@ -16,7 +6,6 @@ image: "/assets/images/placeholder_issue_2.jpg"
 layout: issue_detail
 price: "$15.00"
 
->>>>>>> gh-pages
 ---
 
 ### Poetry

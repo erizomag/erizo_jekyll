@@ -1,15 +1,9 @@
 ---
 title: About
-<<<<<<< HEAD
 permalink: "/about/"
 layout: about
 page_excerpt: 'Erizo: A Journal of the Arts publishes new poetry and art from across
   the Americas.'
-=======
-permalink: /about/
-page_excerpt: >-
-  Erizo: A Journal of the Arts publishes new poetry and art from across the Americas.
->>>>>>> gh-pages
 ---
 
 To submit poems or visual art, or to inquire about translating, please email us at editors@erizoerizo.com. We are also interested collaborations between poets and artists.

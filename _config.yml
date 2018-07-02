@@ -4,18 +4,18 @@
 
 title: Erizo
 email: chilewich@gmail.com
-description: >-
+description: >
   A Journal of the Arts is a bilingual publication of new poetry and visual art
   from the Americas. Un diario de las artes publica nuerva poesía y arte de las
   Américas.
 baseurl: ""
-url: "http://erizo-jekyll.siteleaf.net"
 github_username:  erizo_mag
 
 markdown: kramdown
 
 plugins:
   - jekyll-feed
+  - github-pages
 
 sass:
   sass_dir: _lib

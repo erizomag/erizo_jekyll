@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /about/
-page_excerpt:  >-
+page_excerpt: >-
   Erizo: A Journal of the Arts publishes new poetry and art from across the Americas.
 ---
 

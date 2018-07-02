@@ -1,10 +1,10 @@
 ---
 object_id: 1
 title: "Issue 1"
-release_year: 2017
+release_year: "2017"
 image: "/assets/images/placeholder_issue_1.jpg"
 layout: issue_detail
-price: $15.00
+price: "$15.00"
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis

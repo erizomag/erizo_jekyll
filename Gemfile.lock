@@ -29,7 +29,11 @@ GEM
     ffi (1.9.25)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
+<<<<<<< HEAD
     github-pages (187)
+=======
+    github-pages (186)
+>>>>>>> gh-pages
       activesupport (= 4.2.10)
       github-pages-health-check (= 1.8.1)
       jekyll (= 3.7.3)
@@ -48,7 +52,11 @@ GEM
       jekyll-relative-links (= 0.5.3)
       jekyll-remote-theme (= 0.3.1)
       jekyll-sass-converter (= 1.5.2)
+<<<<<<< HEAD
       jekyll-seo-tag (= 2.5.0)
+=======
+      jekyll-seo-tag (= 2.4.0)
+>>>>>>> gh-pages
       jekyll-sitemap (= 1.2.0)
       jekyll-swiss (= 0.4.0)
       jekyll-theme-architect (= 0.1.1)
@@ -138,7 +146,52 @@ GEM
       rubyzip (>= 1.2.1, < 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.5.0)
+    jekyll-seo-tag (2.4.0)
+      jekyll (~> 3.3)
+    jekyll-sitemap (1.2.0)
+      jekyll (~> 3.3)
+    jekyll-swiss (0.4.0)
+    jekyll-theme-architect (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-cayman (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-dinky (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-hacker (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-leap-day (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-merlot (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-midnight (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-minimal (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-modernist (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-primer (0.5.3)
+      jekyll (~> 3.5)
+      jekyll-github-metadata (~> 2.9)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-slate (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-tactile (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-theme-time-machine (0.1.1)
+      jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.0)
+    jekyll-titles-from-headings (0.5.1)
       jekyll (~> 3.3)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
@@ -245,7 +298,12 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.7.3)
+<<<<<<< HEAD
   jekyll-feed
+=======
+  jekyll-feed (~> 0.6)
+  minima (~> 2.0)
+>>>>>>> gh-pages
   tzinfo-data
 
 BUNDLED WITH

@@ -7,6 +7,7 @@ description: >
   Américas.
 baseurl: ""
 github_username:  erizo_mag
+permalink: /
 
 markdown: kramdown
 
@@ -27,8 +28,8 @@ collections:
     output: true
 
 defaults:
-  -scope:
-    path: ""
-    type: "issues"
-  values:
-    layout: "issue_detail"
+  - scope:
+      path: ""
+      type: issues
+    values:
+      layout: issue_detail

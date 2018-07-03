@@ -1,6 +1,6 @@
 ---
 title: Journal
-permalink: /issues/
+permalink: "/issues/"
 layout: issues
 ---
 

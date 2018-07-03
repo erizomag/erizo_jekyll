@@ -1,11 +1,9 @@
 ---
-
-page_title: "Issue 2"
-release_year: "2018"
+page_title: Issue 2
+release_year: '2018'
 image: "/assets/images/placeholder_issue_2.jpg"
 layout: issue_detail
 price: "$15.00"
-
 ---
 
 ### Poetry

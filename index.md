@@ -1,7 +1,7 @@
 ---
-layout: home
 title: Home
-permalink: /
+permalink: "/"
+layout: home
 ---
 
 {: .home_body_content_title}

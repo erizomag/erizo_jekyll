@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about/
+permalink: "/about/"
 layout: about
 page_excerpt: 'Erizo: A Journal of the Arts publishes new poetry and art from across
   the Americas.'

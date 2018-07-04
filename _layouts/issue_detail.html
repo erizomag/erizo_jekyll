@@ -10,15 +10,15 @@ layout: default
   {% endif %}
 
   <div class="issue_detail_header">
-    {% if page.page_title %}
+    {% if page.title %}
       <h1>
-        {{ page.page_title }}
+        {{ page.title }}
       </h1>
     {% endif %}
 
-    {% if page.excerpt %}
+    {% if page.content %}
       <div class = "issue_detail_excerpt">
-        <p>{{ page.excerpt }}</p>
+        <p>{{ page.content }}</p>
       </div>
     {% endif %}
   </div>
@@ -60,6 +60,24 @@ layout: default
   </div>
 
   <div class="issue_detail_table_of_contents">
-    {{ content }}
+    <section class="table_of_contents_column">
+      <h3 class="table_of_contents_column_title">
+        {{ page.toc_poetry.title }}
+      </h3>
+
+      <div class="table_of_contents_column_description">
+        {{ page.toc_poetry.description | markdownify }}
+      </div>
+    </section>
+
+    <section class="table_of_contents_column">
+      <h3 class="table_of_contents_column_title">
+        {{ page.toc_art.title }}
+      </h3>
+
+      <div class="table_of_contents_column_description">
+        {{ page.toc_art.description | markdownify }}
+      </div>
+    </section>
   </div>
 </section>

@@ -1,21 +1,31 @@
 .issue_detail_table_of_contents {
+  @include grid-column(12);
+  @include grid-collapse();
   border-top: $base-border;
+  margin-top: $base_spacing_mobile;
   padding-top: $base_spacing_mobile;
 
+
   @include grid-media($neat-grid-tablet) {
+    margin-top: $base_spacing_desktop;
     padding-top: $base_spacing_desktop;
-    column-count: 2;
   }
 
-  @include grid-media($neat-grid-desktop) {
-    column-count: 3;
-    column-gap: $base_spacing_desktop;
-  }
 
-  h3 {
-    margin-bottom: $base-spacing;
-  }
+  .table_of_contents_column {
+    @include grid-column(12);
 
+    @include grid-media($neat-grid-tablet) {
+      @include grid-column(6);
+    }
+  }
+}
+
+.table_of_contents_column_title {
+  margin-bottom: $base-spacing;
+}
+
+.table_of_contents_column_description {
   h4 {
     font-size: $base-font-size * 1.25;
   }
@@ -43,3 +53,4 @@
     }
   }
 }
+

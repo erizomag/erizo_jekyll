@@ -7,6 +7,7 @@
 
   @include grid-media($neat-grid-tablet) {
     margin-top: $base_spacing_desktop;
+    padding-top: $base_spacing_desktop;
   }
 }
 

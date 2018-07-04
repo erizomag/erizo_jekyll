@@ -36,9 +36,10 @@
   align-items: initial;
   display: flex;
   flex-direction: column;
-  margin-bottom: $base-spacing;
+  margin-bottom: $base_spacing_mobile;
 
   @include grid-media($neat-grid-tablet) {
+    margin-bottom: $base_spacing_desktop;
     align-items: center;
     flex-direction: row;
   }

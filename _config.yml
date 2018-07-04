@@ -8,12 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+  issues:
+    collection_dir: _issues
+    output: true
 defaults:
 - scope:
     path: ''
-    type: issues
+    type: "issues"
   values:
-    layout: issue_detail
+    layout: "issue_detail"
 email: chilewich@gmail.com
 description: 'A Journal of the Arts is a bilingual publication of new poetry and visual
   art from the Americas. Un diario de las artes publica nuerva poesía y arte de las

@@ -4,7 +4,7 @@ release_year: '2017'
 image: "/assets/images/placeholder_issue_1.jpg"
 layout: issue_detail
 price: "$15.00"
-excerpt: "Lorem ipsum"
+excerpt: Lorem ipsum
 ---
 
 ### Poetry

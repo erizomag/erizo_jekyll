@@ -1,9 +1,10 @@
 ---
-page_title: Issue 1
+title: Issue 1
 release_year: '2017'
 image: "/assets/images/placeholder_issue_1.jpg"
 layout: issue_detail
 price: "$15.00"
+excerpt: "Lorem ipsum"
 ---
 
 ### Poetry

@@ -16,11 +16,11 @@ layout: default
       </h1>
     {% endif %}
 
-    <!-- {% if page.excerpt %} -->
-    <!--   <div class = "issue_detail_excerpt"> -->
-    <!--     <p>{{ page.excerpt }}</p> -->
-    <!--   </div> -->
-    <!-- {% endif %} -->
+    {% if page.excerpt %}
+      <div class = "issue_detail_excerpt">
+        <p>{{ page.excerpt }}</p>
+      </div>
+    {% endif %}
   </div>
 
   <div class="issue_detail_meta_body">

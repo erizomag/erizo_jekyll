@@ -4,9 +4,17 @@ layout: default
 
 <section class="home container">
   <figure>
-    <img src="/assets/images/placeholder_image.jpg" class="home_image"> </figure>
+    <img src="{{ page.issues.image }}" class="home_image"> </figure>
   <div class="home_body_content">
-    {{ content }}
+    <h1 class="home_body_content_title">
+      {{ page.issues }}
+      {{ page.issues.meta["content"] }}
+    </h1>
+
+    <p class="home_body_content_description">
+      hello
+      {{ page.issues['content'] }}
+    </p>
 
     <ul class="issues_action_row">
       <li class="issues_action_row_item">

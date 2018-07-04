@@ -4,7 +4,7 @@ release_year: 2018
 image: "/assets/images/placeholder_issue_2.jpg"
 price: "$15.00"
 toc_poetry:
-  title: Poe
+  title: Poetry
   description: |-
     #### Monica De La Torres
     Traducción al español por Daniel Saldaña París

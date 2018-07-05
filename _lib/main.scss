@@ -1,18 +1,26 @@
-.home_image {
-  @include grid-column(12);
-  height: auto;
-}
-
-.home_body_content {
+.home_container_column {
   @include grid-media($neat-grid-desktop) {
-    @include grid-shift(3);
-    @include grid-column(6);
-  }
-
-  @include grid-media($neat-grid-desktop-large) {
     @include grid-shift(2);
     @include grid-column(8);
   }
+}
+
+.home_image {
+  @include aspect-ratio(16, 9);
+  margin-bottom: $base_spacing_mobile;
+
+  @include grid-media($neat-grid-tablet) {
+    margin-bottom: $base_spacing_desktop;
+  }
+}
+
+.home_image img {
+  object-fit: cover;
+  max-height: fit-content;
+  width: 100%;
+}
+
+.home_body_content {
 }
 
 .home_body_content_title {

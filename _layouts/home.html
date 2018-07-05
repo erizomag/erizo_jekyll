@@ -3,26 +3,30 @@ layout: default
 ---
 
 <section class="home container">
-  <figure>
-    <img src="{{ page.issues.image }}" class="home_image"> </figure>
-  <div class="home_body_content">
-    <h1 class="home_body_content_title">
-      {{ page.issues }}
-      {{ page.issues.meta["content"] }}
-    </h1>
+  <div class="home_container_column">
+    <figure class="home_image">
+      <img src="{{ site.issues[1].image }}" />
+    </figure>
 
-    <p class="home_body_content_description">
-      hello
-      {{ page.issues['content'] }}
-    </p>
+    <div class="home_body_content">
+      <h1 class="home_body_content_title">
+        {{ site.issues[1].title }}
+        {{ site.issues['Issue 2'].title }}
+      </h1>
 
-    <ul class="issues_action_row">
-      <li class="issues_action_row_item">
-        <a href="/" class="btn-secondary">Learn More</a>
-      </li>
-      <li class="issues_action_row_item">
-        <a href="/" class="btn-base">Order Issue 2</a>
-      </li>
-    </ul>
+      <p class="home_body_content_description">
+        {{ site.issues[1].content }}
+      </p>
+
+      <ul class="issues_action_row">
+        <li class="issues_action_row_item">
+          <a href="/" class="btn-secondary">Learn More</a>
+        </li>
+        <li class="issues_action_row_item">
+          <a href="/" class="btn-base">Order {{ page.issues }}</a>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </section>

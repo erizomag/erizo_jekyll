@@ -28,6 +28,8 @@ $issues_body_list_item: (
 
 .issues_body_list_item_image {
   a {
+    display: block;
+
     &:hover {
       img {
         opacity: 1;

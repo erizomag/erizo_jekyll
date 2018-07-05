@@ -8,54 +8,72 @@ toc_poetry:
   title: Poetry
   description: |-
     #### Monica De La Torres
-    ##### Traducción al español por Daniel Saldaña París
-    - View from an Aeron Chair
-    - Human Intelligence Tasks
-    - View from a Dodo Chair
-    - View from a Womb Chair
-    - Guerrilla Advertiser Position
+    Traducción al español por Daniel Saldaña París
+
+    * View from an Aeron Chair
+    * Human Intelligence Tasks
+    * View from a Dodo Chair
+    * View from a Womb Chair
+    * Guerrilla Advertiser Position
+
+    ---
 
     #### Ricardo Cázares
-    ##### Translated to English by Joshua Edwards
-    - From Palas Volume 2
+    Translated to English by Joshua Edwards
+    * From Palas Volume 2
+
+    ---
 
     #### Jane Gregory
-    ##### Traducción al español por Ricardo Cázares
-    - Profices/But is an Infinite Command
+    Traducción al español por Ricardo Cázares
+    * Profices/But is an Infinite Command
+
+    ---
 
     #### Jessica O. Marsh
-    ##### Traducción al español por Tatiana Lipkes
-    - Grit
-    - Blue Soma
-    - After Letters
-    - Which Good Break
-    - Delusions
-    - Sky Over Toledo
-    - Dictionary
-    - Hook
+    Traducción al español por Tatiana Lipkes
+    * Grit
+    * Blue Soma
+    * After Letters
+    * Which Good Break
+    * Delusions
+    * Sky Over Toledo
+    * Dictionary
+    * Hook
+
+    ---
 
     #### Natasha Tiniacos
-    ##### Translated to English by Will Fesperman
-    - Una alarma suena en la distancia
+    Translated to English by Will Fesperman
+
+    * Una alarma suena en la distancia
+
+    ---
 
     #### Héctor Hernández Montecinos
-    ##### Translated to English by Katherine Hedeen
-    - Los colores y Papá,  [fragmento]
+    Translated to English by Katherine Hedeen
+
+    * Los colores y Papá,  \[fragmento\]
+
+    ---
 
     #### Will Alexander
-    ##### Traducción al español por Román Lujan
-    - From Concerning the Henbane Bird
+    Traducción al español por Román Lujan
+    * From Concerning the Henbane Bird
+
+    ---
 
     #### Daniel Saldaña París
-    ##### Translated to English by Mónica de la Torre
-    - Cuatro Poemas
-    - Gladys González
-    - Translated to English by Lizzie Davis
-    - Un bar vacío
-    - Refugio
-    - Despedida
-    - Última noche
-    - Certeza
+    Translated to English by Mónica de la Torre
+
+    * Cuatro Poemas
+    * Gladys González
+    * Translated to English by Lizzie Davis
+    * Un bar vacío
+    * Refugio
+    * Despedida
+    * Última noche
+    * Certeza
 toc_art:
   title: Art
   description: |-

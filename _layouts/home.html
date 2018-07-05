@@ -9,10 +9,11 @@ layout: default
     </figure>
 
     <div class="home_body_content">
-      <h1 class="home_body_content_title">
-        {{ site.issues[1].title }}
-        {{ site.issues['Issue 2'].title }}
-      </h1>
+      <a href="{{ site.issues[1].url }}">
+        <h1 class="home_body_content_title">
+          {{ site.issues[1].title }}
+        </h1>
+      </a>
 
       <p class="home_body_content_description">
         {{ site.issues[1].content }}
@@ -20,7 +21,7 @@ layout: default
 
       <ul class="issues_action_row">
         <li class="issues_action_row_item">
-          <a href="/" class="btn-secondary">Learn More</a>
+          <a href="{{ site.issues[1].url }}" class="btn-secondary">Learn More</a>
         </li>
         <li class="issues_action_row_item">
           <a href="/" class="btn-base">Order {{ page.issues }}</a>

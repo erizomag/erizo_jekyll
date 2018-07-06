@@ -4,20 +4,24 @@ permalink: "/about/"
 page_excerpt: 'Erizo: A Journal of the Arts publishes new poetry and art from across
   the Americas.'
 submission_description: To submit poems or visual art, or to inquire about translating,
-  please email us at **[mailto:editors@erizoerizo.com](editors@erizoerizo.com)**.
-  We are also interested collaborations between poets and artists.
+  please email us at **[editors@erizoerizo.com](editors@erizoerizo.com)**. We are
+  also interested collaborations between poets and artists.
 credits_description: |-
-  ### Editors:
+  #### Editors:
 
   - Nika Chilewich
   - Aron Chilewich
 
-  ### Print Design:
+  ---
+
+  #### Print Design:
 
   - Leonel Salguero
   - Carla Valdivia Nakatani (Studio Katsu)
 
-  ### Web Design and Development:
+  ---
+
+  #### Web Design and Development:
 
   - Lisa Sy
   - Carlos Sanchez III

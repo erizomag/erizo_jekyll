@@ -2,6 +2,9 @@
 title: Erizo
 timezone: UTC
 collections:
+  contributors:
+    title: Contributors
+    output: true
   issues:
     title: Issues
     output: true

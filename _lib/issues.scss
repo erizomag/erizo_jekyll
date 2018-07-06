@@ -56,26 +56,6 @@ $issues_body_list_item: (
 
   .description {
     margin-top: 0;
-
-    a {
-      text-decoration: underline;
-
-      &:link {
-        color: $link-hover-color;
-      }
-
-      &:hover {
-        color: darken($link-hover-color, 5);
-      }
-
-      &:visited {
-        color: $link-visited-color;
-      }
-
-      &:active {
-        color: $link-active-color;
-      }
-    }
   }
 
   .meta_list {
@@ -86,9 +66,29 @@ $issues_body_list_item: (
       list-style-type: none;
       margin-right: $base-spacing * 2;
 
+      .meta_title {
+        margin: 0;
+      }
+
       .meta_description {
         margin: 0;
       }
+    }
+  }
+}
+
+.issues_body_list_item {
+  padding-left: $base_spacing;
+  padding-top: $base_spacing;
+}
+
+.issues_body_list_item_a {
+  &:hover {
+    color: white;
+    // transition: all 0.25s ease-in-out;
+
+    .issues_body_list_item {
+      background: black;
     }
   }
 }

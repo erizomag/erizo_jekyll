@@ -1,5 +1,9 @@
 .site_menu {
-  float: right;
+  float: left;
+
+  @include grid-media($neat-grid-tablet) {
+    float: right;
+  }
 
   ul {
     li {

@@ -4,21 +4,17 @@ layout: default
 
 <section class="issues">
   {% for i in site.issues reversed %}
+  <a href="{{ i.url }}" class="issues_body_list_item_a">
     <div class="issues_body_list_item">
       <figure class="issues_body_list_item_image">
-        <a href="{{ i.url }}">
-          <img src="{{ i.image }}" />
-        </a>
+        <img src="{{ i.image }}" />
       </figure>
       <div class="issues_body_list_item_description">
-        <a href="{{ i.url }}">
           <h2 class="title">
             {{ i.title }}
           </h2>
-        </a>
         <div class="description">
           {{ i.content | markdownify | truncate: 160 }}
-          <a href="{{ i.url }}">Learn More</a>
         </div>
 
         <ul class="meta_list">
@@ -46,12 +42,9 @@ layout: default
           {% endif %}
 
         </ul>
-        <ul class="issues_action_row">
-          <li class="issues_action_row_item">
-            <a href="/" class="btn-base">Order {{ i.title }}</a>
-          </li>
-        </ul>
       </div>
     </div>
+  </a>
+
   {% endfor %}
 </section>

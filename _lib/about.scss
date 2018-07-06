@@ -1,5 +1,7 @@
 .about_body_title {
-  @include grid-column(12);
+  @include grid-media($neat-grid-desktop) {
+    @include grid-column(12);
+  }
 }
 
 .about_body_content {
@@ -8,7 +10,6 @@
 
   .main_column {
     @include grid-column(12);
-
     @include grid-media($neat-grid-desktop) {
       @include grid-column(8);
     }
@@ -16,7 +17,6 @@
 
   .secondary_column {
     @include grid-column(12);
-
     @include grid-media($neat-grid-desktop) {
       @include grid-column(4);
     }
@@ -25,4 +25,31 @@
 
 .main_column_title {
   text-transform: none;
+  font-size: $base-font-size;
+
+  @include grid-media($neat-grid-tablet) {
+    font-size: $base-font-size * $rhythm_up_1;
+  }
+}
+
+.main_column {
+
+}
+
+.secondary_column {
+  h4 {
+    margin-bottom: $base_spacing_down_1;
+    font-size: $base-font-size * $rhythm_down_80;
+    display: inline-block;
+    border-bottom: $base-border;
+    padding-bottom: $base_spacing_down_2;
+  }
+
+  ul {
+    margin: 0 auto $base_spacing_desktop;
+  }
+
+  hr {
+    border: none;
+  }
 }

@@ -1,14 +1,22 @@
 ---
 layout: default
-page_excerpt: 'Erizo: A Journal of the Arts publishes new poetry and art from across
-  the Americas.'
 ---
 
 <section class="about">
-  <h1>
-    {{ page.page_excerpt }}
-  </h1>
+  <div class="about_body_title">
+    <h1>
+      {{ page.page_excerpt }}
+    </h1>
+  </div>
   <div class="about_body_content">
-    {{ content }}
+    <div class="main_column">
+      <h4 class="main_column_title">
+        {{ page.submission_description | markdownify }}
+      </h4>
+      {{ content }}
+    </div>
+    <div class="secondary_column">
+      {{ page.credits_description | markdownify }}
+    </div>
   </div>
 </section>

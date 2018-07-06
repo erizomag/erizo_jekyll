@@ -16,9 +16,10 @@ layout: default
             {{ i.title }}
           </h2>
         </a>
-        <p class="description">
-          {{ i.excerpt }}
-        </p>
+        <div class="description">
+          {{ i.content | markdownify | truncate: 160 }}
+          <a href="{{ i.url }}">Learn More</a>
+        </div>
 
         <ul class="meta_list">
 
@@ -46,9 +47,6 @@ layout: default
 
         </ul>
         <ul class="issues_action_row">
-          <li class="issues_action_row_item">
-            <a href="{{ i.url }}" class="btn-secondary">Learn More</a>
-          </li>
           <li class="issues_action_row_item">
             <a href="/" class="btn-base">Order {{ i.title }}</a>
           </li>

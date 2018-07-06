@@ -1,6 +1,28 @@
+.about_body_title {
+  @include grid-column(12);
+}
+
 .about_body_content {
-  @include grid-media($neat-grid-desktop) {
-    @include grid-shift(2);
-    @include grid-column(8);
+  @include grid-column(12);
+  @include grid-collapse();
+
+  .main_column {
+    @include grid-column(12);
+
+    @include grid-media($neat-grid-desktop) {
+      @include grid-column(8);
+    }
   }
+
+  .secondary_column {
+    @include grid-column(12);
+
+    @include grid-media($neat-grid-desktop) {
+      @include grid-column(4);
+    }
+  }
+}
+
+.main_column_title {
+  text-transform: none;
 }

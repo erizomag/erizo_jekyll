@@ -28,7 +28,7 @@ credits_description: |-
 layout: about
 ---
 
-Erizo functions as a non-profit organization. To give a tax-deductible donation to Erizo, [please visit our Fractured Atlas sponsored page](https://www.fracturedatlas.org/site/fiscal/profile?id=15041).
+Erizo functions as a non-profit organization. To give a tax-deductible donation to Erizo, [****please visit our Fractured Atlas sponsored page](https://www.fracturedatlas.org/site/fiscal/profile?id=15041).
 
 Generous support has been provided by the Community of Literary Magazines and Presses (CLMP) and Ruchika Garga, as well as the the individuals listed below: 
 

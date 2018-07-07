@@ -2,7 +2,7 @@
 title: Issue 1
 page_title: Issues 1
 release_year: 2017
-image: "/assets/images/placeholder_issue_1.jpg"
+image: "/uploads/Erizo%201-5635db.jpg"
 price: "$15.00"
 toc_poetry:
   title: Poetry
@@ -90,4 +90,4 @@ toc_art:
 layout: issue_detail
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+Issue 1 includes new work by nine poets and six artists from four countries. 

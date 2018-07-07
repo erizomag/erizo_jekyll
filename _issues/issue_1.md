@@ -20,18 +20,21 @@ toc_poetry:
 
     #### Ricardo Cázares
     Translated to English by Joshua Edwards
+
     * From Palas Volume 2
 
     ---
 
     #### Jane Gregory
     Traducción al español por Ricardo Cázares
+
     * Profices/But is an Infinite Command
 
     ---
 
     #### Jessica O. Marsh
     Traducción al español por Tatiana Lipkes
+
     * Grit
     * Blue Soma
     * After Letters
@@ -59,6 +62,7 @@ toc_poetry:
 
     #### Will Alexander
     Traducción al español por Román Lujan
+
     * From Concerning the Henbane Bird
 
     ---
@@ -76,39 +80,14 @@ toc_poetry:
     * Certeza
 toc_art:
   title: Art
-  description: |-
-    Alejandra Prieto
-    * Extracción de la piedra de locura.
-
-    ---
-
-    Dibujo
-    * escultura y texto sobre la extracción del litio y su relación con el cuerpo humano.
-
-    ---
-
-    Fernando Palma
-    * Fragmentos del cuento Inimeli in coyotl ihuan icihuahua in cemechin y Kittenmiow en el país de las banderas. Pintura digital.
-
-    ---
-
-    Fabiola Menchelli
-    * Ellipse. Fotografía análoga.
-
-    ---
-
-    DINO DINCO
-    * Beyond Killing. Text and Image.
-
-    ---
-
-    Kandis Williams
-    * Notes on Love. Text and Collage.
-
-    ---
-
-    Biquini Wax EPS
-    * dibujos mágico feudales a lo largo de la publicación.
+  description: "#### Alejandra Prieto\n* Extracción de la piedra de locura.\n\nDibujo,
+    escultura y texto sobre la extracción del litio y su relación con el cuerpo humano.\n\n---\n\n####
+    Fernando Palma\n* Fragmentos del cuento Inimeli in coyotl ihuan icihuahua in cemechin
+    y Kittenmiow en el país de las banderas. \n\nPintura digital.\n\n---\n\n#### Fabiola
+    Menchelli\n* Ellipse. \n\nFotografía análoga.\n\n---\n\n#### DINO DINCO\n* Beyond
+    Killing. \n\nText and Image.\n\n---\n\n#### Kandis Williams\n* Notes on Love.
+    \n\nText and Collage.\n\n---\n\n#### Biquini Wax EPS\n* dibujos mágico feudales
+    a lo largo de la publicación.\n\nDibujos."
 layout: issue_detail
 ---
 

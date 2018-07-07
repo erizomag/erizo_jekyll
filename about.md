@@ -3,9 +3,9 @@ title: About
 permalink: "/about/"
 page_excerpt: 'Erizo: A Journal of the Arts publishes new poetry and art from across
   the Americas.'
-submission_description: To submit poems or visual art, or to inquire about translating,
-  please email us at **[editors@erizoerizo.com](editors@erizoerizo.com)**. We are
-  also interested collaborations between poets and artists.
+submission_description: To submit poems or visual art, or to inquire about contributing
+  as a translator, please email editors@erizoerizo.com.We are also interested collaborations
+  between poets and artists.
 credits_description: |-
   #### Editors:
 
@@ -28,7 +28,7 @@ credits_description: |-
 layout: about
 ---
 
-Erizo functions as a non-profit organization. To give a tax deductible gift to Erizo, please visit our Fractured Atlas sponsored page.
+Erizo functions as a non-profit organization. To give a tax-deductible donation to Erizo, [please visit our Fractured Atlas sponsored page](https://www.fracturedatlas.org/site/fiscal/profile?id=15041).
 
 Generous support has been provided by the Community of Literary Magazines and Presses (CLMP) and Ruchika Garga, as well as the the individuals listed below: 
 

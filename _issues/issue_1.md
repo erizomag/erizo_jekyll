@@ -6,7 +6,7 @@ image: "/uploads/Erizo%201-5635db.jpg"
 price: "$15.00"
 toc_poetry:
   title: Poetry
-  description: |-
+  description: |
     #### Monica De La Torres
     Traducción al español por Daniel Saldaña París
 
@@ -73,6 +73,17 @@ toc_poetry:
     * Cuatro Poemas
     * Gladys González
     * Translated to English by Lizzie Davis
+    * Un bar vacío
+    * Refugio
+    * Despedida
+    * Última noche
+    * Certeza
+
+    ---
+
+    #### Gladys González
+    Translated to English by Lizzie Davis
+
     * Un bar vacío
     * Refugio
     * Despedida

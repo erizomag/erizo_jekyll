@@ -81,13 +81,12 @@ toc_poetry:
 toc_art:
   title: Art
   description: "#### Alejandra Prieto\n* Extracción de la piedra de locura.\n\nDibujo,
-    escultura y texto sobre la extracción del litio y su relación con el cuerpo humano.\n\n---\n\n####
-    Fernando Palma\n* Fragmentos del cuento Inimeli in coyotl ihuan icihuahua in cemechin
-    y Kittenmiow en el país de las banderas. \n\nPintura digital.\n\n---\n\n#### Fabiola
-    Menchelli\n* Ellipse. \n\nFotografía análoga.\n\n---\n\n#### DINO DINCO\n* Beyond
-    Killing. \n\nText and Image.\n\n---\n\n#### Kandis Williams\n* Notes on Love.
-    \n\nText and Collage.\n\n---\n\n#### Biquini Wax EPS\n* dibujos mágico feudales
-    a lo largo de la publicación.\n\nDibujos."
+    Escultura y Texto.\n\n---\n\n#### Fernando Palma\n* Fragmentos del cuento Inimeli
+    in coyotl ihuan icihuahua in cemechin y Kittenmiow en el país de las banderas.
+    \n\nPintura digital.\n\n---\n\n#### Fabiola Menchelli\n* Ellipse. \n\nFotografía
+    análoga.\n\n---\n\n#### DINO DINCO\n* Beyond Killing. \n\nText and Image.\n\n---\n\n####
+    Kandis Williams\n* Notes on Love. \n\nText and Collage.\n\n---\n\n#### Biquini
+    Wax EPS\n* dibujos mágico feudales a lo largo de la publicación.\n\nDibujo."
 layout: issue_detail
 ---
 

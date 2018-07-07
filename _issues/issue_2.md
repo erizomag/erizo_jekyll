@@ -1,7 +1,7 @@
 ---
 title: Issue 2
 release_year: 2018
-image: "/assets/images/placeholder_issue_2.jpg"
+image: "/uploads/Erizo%201.jpg"
 price: "$15.00"
 toc_poetry:
   title: Poetry

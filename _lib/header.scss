@@ -1,13 +1,17 @@
 .site_header {
   @include grid-column(12);
   border-bottom: $base-border;
-  display: block;
-  overflow: hidden;
+  display: inline-block;
+
+  @include grid-media($neat-grid-tablet) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .site_header_text_logo {
-  float: left;
-  font-size: $base-font-size * 1.5;
+  font-size: $base-font-size * $rhythm_up_1;
   text-transform: uppercase;
   margin: 0;
 }

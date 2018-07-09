@@ -23,15 +23,6 @@
   }
 }
 
-.main_column_title {
-  text-transform: none;
-  font-size: $base-font-size;
-
-  @include grid-media($neat-grid-tablet) {
-    font-size: $base-font-size * $rhythm_up_1;
-  }
-}
-
 .secondary_column {
   h4 {
     margin-bottom: $base_spacing_down_1;

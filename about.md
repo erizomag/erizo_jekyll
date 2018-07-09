@@ -4,7 +4,7 @@ permalink: "/about/"
 page_excerpt: 'Erizo: A Journal of the Arts publishes new poetry and art from across
   the Americas.'
 submission_description: To submit poems or visual art, or to inquire about contributing
-  as a translator, please email editors@erizoerizo.com.We are also interested collaborations
+  as a translator, please email editors@erizoerizo.com. We are also interested collaborations
   between poets and artists.
 credits_description: |-
   #### Editors:

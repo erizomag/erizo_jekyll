@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: "/"
-issues: Issue 1
+featured_issue: Issue 1
 layout: home
 ---
 

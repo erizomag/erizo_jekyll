@@ -7,8 +7,8 @@ $rhythm_up_4 : 4;
 $rhythm_up_3 : 3;
 $rhythm_up_2 : 2;
 $rhythm_up_1 : 1.5;
-$rhythm_down_80: 0.8;
-$rhythm_down_50: 0.5;
+$rhythm_down_1: 0.8;
+$rhythm_down_2: 0.5;
 
 @mixin type_header(
     $font_face: $serif-primary,
@@ -79,6 +79,17 @@ $rhythm_down_50: 0.5;
   }
 }
 
+@mixin type_body_small($font_face: $serif-secondary) {
+  font-family: $font_face;
+  font-size: $base-font-size * $rhythm_down_1;
+  line-height: $base-font-size * 1.25;
+  margin: 0 auto $base_spacing;
+
+  @include grid-media($neat-grid-tablet) {
+    font-size: $base-font-size;
+    margin: 0 auto $base_spacing_up_1;
+  }
+}
 
 //---------- Type Usage -----------//
 
@@ -103,6 +114,10 @@ caption,
 li,
 figure {
   @include type_body_normal();
+}
+
+small {
+  @include type_body_small();
 }
 
 a {

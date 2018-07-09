@@ -10,9 +10,7 @@ layout: default
   </div>
   <div class="about_body_content">
     <div class="main_column">
-      <h4 class="main_column_title">
-        {{ page.submission_description }}
-      </h4>
+      {{ page.submission_description | markdownify }}
       {{ content }}
     </div>
     <div class="secondary_column">

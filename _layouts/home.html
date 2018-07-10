@@ -4,19 +4,19 @@ layout: default
 
 <section class="home container">
   <div class="home_container_column">
-    <figure class="home_image">
-      <img src="{{ site.issues[1].image }}" />
-    </figure>
+    <!-- <figure class="home_image"> -->
+    <!--   <img src="{{ page.featured_issue.image }}" /> -->
+    <!-- </figure> -->
 
     <div class="home_body_content">
-      <a href="{{ site.issues[1].url }}">
-        <h1 class="home_body_content_title">
-          {{ site.issues[1].title }}
-        </h1>
-      </a>
-
       <p class="home_body_content_description">
-        {{ site.issues[1].content }}
+      {% assign selection = page.featured_issue %}
+      <h1>
+        {{ selection }}
+      </h1>
+        {{ selection.content }}
+
+      {{ site.issues[page.featured_issue - 1].price }}
       </p>
 
       <ul class="issues_action_row">

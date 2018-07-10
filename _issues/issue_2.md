@@ -1,6 +1,6 @@
 ---
 title: Issue 2
-issue_id: 2
+page_title: Issue 2
 release_year: 2018
 image: "/uploads/work%20in%20progress.gif"
 price: "$15.00"

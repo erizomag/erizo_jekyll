@@ -1,31 +1,27 @@
 ---
 layout: default
 ---
+{% assign featured_issue_id = page.featured_issue | minus: 1 %}
 
 <section class="home container">
   <div class="home_container_column">
-    <!-- <figure class="home_image"> -->
-    <!--   <img src="{{ page.featured_issue.image }}" /> -->
-    <!-- </figure> -->
+    <figure class="home_image">
+      <img src="{{ site.issues[featured_issue_id].image }}" />
+    </figure>
 
     <div class="home_body_content">
-      <p class="home_body_content_description">
-      {% assign selection = page.featured_issue %}
-      <h1>
-        {{ selection }}
+      <h1 class="home_body_content_title">
+        {{ site.issues[featured_issue_id].title }}
       </h1>
-        {{ selection.content }}
 
-      {{ site.issues[page.featured_issue - 1].price }}
+      <p class="home_body_content_description">
+        {{ site.issues[featured_issue_id].excerpt }}
       </p>
 
       <ul class="issues_action_row">
         <li class="issues_action_row_item">
-          <a href="{{ site.issues[1].url }}" class="btn-secondary">Learn More</a>
+          <a href="{{ site.issues[featured_issue_id].url }}" class="btn-secondary">Learn More</a>
         </li>
-        <!-- <li class="issues_action_row_item"> -->
-        <!--   <a href="/" class="btn&#45;base">Order {{ page.issues }}</a> -->
-        <!-- </li> -->
       </ul>
     </div>
 

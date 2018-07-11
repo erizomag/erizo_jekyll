@@ -6,9 +6,15 @@
   }
 
   ul {
+    margin: 0;
+
     li {
       display: inline-block;
-      margin-right: $base-spacing;
+      margin-right: $base_spacing_desktop / 4;
+
+      @include grid-media($neat-grid-tablet) {
+        margin-right: $base_spacing_desktop / 2;
+      }
 
       &:last-child {
         margin-right: 0;

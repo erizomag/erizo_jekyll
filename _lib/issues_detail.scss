@@ -1,11 +1,10 @@
-.issue_detail_excerpt {
-  p {
-    font-size: $base-font-size * 1.5;
-  }
-}
-
 .issue_detail_image {
   @include aspect-ratio(16, 9);
+  margin-bottom: $base_spacing_mobile;
+
+  @include grid-media($neat-grid-tablet) {
+    margin-bottom: $base_spacing_desktop;
+  }
 }
 
 .issue_detail_image img {
@@ -15,8 +14,7 @@
 }
 
 .issue_detail_header {
-  // margin: $base-spacing auto;
-  // padding-bottom: $base-spacing;
+  text-align: center;
 }
 
 .issue_detail_meta_title {
@@ -35,6 +33,7 @@
 .issue_detail_meta_body {
   align-items: initial;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   margin-bottom: $base_spacing_mobile;
 
@@ -45,6 +44,10 @@
   }
 }
 
+.issue_detail_meta_title {
+  @include type_body_header_small();
+}
+
 .issue_detail_meta_list,
 .issue_detail_meta_cta {
   display: inline-block;
@@ -53,11 +56,11 @@
 .issue_detail_meta_list {
   padding-left: 0;
 
-
   .issue_detail_meta_list_item {
     display: inline-block;
     list-style-type: none;
     margin-right: $base-spacing * 2;
+    text-align: left;
   }
 }
 

@@ -13,7 +13,11 @@
 
 .site_footer_title {
   @include type_body_header_small();
-  margin-bottom: $base_spacing_down_1;
+  margin-bottom: $base_spacing_mobile;
+
+  @include grid-media($neat-grid-tablet) {
+    margin-bottom: $base_spacing_desktop / 2;
+  }
 }
 
 .site_footer_content {
@@ -40,7 +44,7 @@
   text-align: center;
 
   @include grid-media($neat-grid-tablet) {
-    margin: $base_spacing_desktop auto;
+    margin: ($base_spacing_desktop * 3) auto $base_spacing_desktop;
   }
 }
 

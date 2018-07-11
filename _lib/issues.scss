@@ -7,13 +7,18 @@
   @include grid-collapse();
   padding-top: $base_spacing_mobile;
   padding-bottom: $base_spacing_mobile;
+  padding-left: $base_spacing_mobile;
+  padding-right: $base_spacing_mobile;
 
   @include grid-media($neat-grid-tablet) {
     padding-top: $base_spacing_desktop;
     padding-bottom: $base_spacing_desktop;
+    padding-left: $base_spacing_desktop;
+    padding-right: $base_spacing_desktop;
   }
 
-  &:hover {
+  &:hover,
+  &:active {
     color: white;
     transition: all 0.25s ease-in-out;
     background: black;
@@ -22,12 +27,10 @@
 }
 
 .issues_body_list_item {
-  align-items: center;
-  display: flex;
-  padding-left: 0;
-
   @include grid-media($neat-grid-tablet) {
-    padding-left: $base_spacing_desktop;
+    align-items: center;
+    display: flex;
+    margin-bottom: $base_spacing_desktop;
   }
 }
 
@@ -46,24 +49,11 @@
 }
 
 .issues_body_list_item_image {
-  a {
-    display: block;
-
-    &:hover {
-      img {
-        opacity: 1;
-        // transform: scale(1.05);
-      }
-    }
-  }
-
   img {
     @include clearfix;
-    opacity: 0.95;
     width: 100%;
     max-width: 100%;
     height: auto;
-    // transition: all .2s ease-in-out;
   }
 }
 

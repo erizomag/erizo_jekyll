@@ -15,7 +15,7 @@ $rhythm_down_2: 0.5;
     $font-size: $base-font-size,
   ) {
   font-family: $font_face;
-  font-size: $font-size * $rhythm_up_1;
+  font-size: $font-size * $rhythm_up_2;
   line-height: $base-font-size * 1.25;
   margin: 0 auto;
 
@@ -120,8 +120,7 @@ small {
 }
 
 figure {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 a {

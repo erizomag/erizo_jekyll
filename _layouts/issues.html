@@ -3,16 +3,22 @@ layout: default
 ---
 
 <section class="issues">
+
   {% for i in site.issues reversed %}
+
   <a href="{{ i.url }}" class="issues_body_list_item_a">
+
     <div class="issues_body_list_item">
+
       <figure class="issues_body_list_item_image">
         <img src="{{ i.image }}" />
       </figure>
+
       <div class="issues_body_list_item_description">
-          <h2 class="title">
-            {{ i.title }}
-          </h2>
+        <h2 class="title">
+          {{ i.title }}
+        </h2>
+
         <div class="description">
           {{ i.content | markdownify | truncate: 160 }}
         </div>

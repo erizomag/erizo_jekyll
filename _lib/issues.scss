@@ -2,28 +2,47 @@
   padding-left: 0;
 }
 
-$issues_body_list_item: (
-  columns: 2,
-  gutter: $base-spacing,
-);
-
-.issues_body_list_item {
-  @include grid-container();
-  list-style-type: none;
-  margin-bottom: $base-spacing * 2;
+.issues_body_list_item_a {
+  @include grid-column(12);
+  @include grid-collapse();
+  padding-top: $base_spacing_mobile;
+  padding-bottom: $base_spacing_mobile;
 
   @include grid-media($neat-grid-tablet) {
-    .issues_body_list_item_image {
-      // @include grid-column(1, $issues_body_list_item);
-      @include grid-column(6);
-      margin-left: 0;
-    }
-
-    .issues_body_list_item_description {
-      @include grid-column(6);
-      // @include grid-column(1, $issues_body_list_item);
-    }
+    padding-top: $base_spacing_desktop;
+    padding-bottom: $base_spacing_desktop;
   }
+
+  &:hover {
+    color: white;
+    transition: all 0.25s ease-in-out;
+    background: black;
+    text-decoration: none;
+  }
+}
+
+.issues_body_list_item {
+  align-items: center;
+  display: flex;
+  padding-left: 0;
+
+  @include grid-media($neat-grid-tablet) {
+    padding-left: $base_spacing_desktop;
+  }
+}
+
+.issues_body_list_item_image,
+.issues_body_list_item_description {
+  @include grid-column(12);
+
+  @include grid-media($neat-grid-tablet) {
+    @include grid-column(6);
+  }
+}
+
+.issues_body_list_item_image {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .issues_body_list_item_image {
@@ -50,8 +69,7 @@ $issues_body_list_item: (
 
 .issues_body_list_item_description {
   .title {
-    font-family: $serif-primary;
-    margin: 0;
+    @include type_sub_header();
   }
 
   .description {
@@ -67,7 +85,8 @@ $issues_body_list_item: (
       margin-right: $base-spacing * 2;
 
       .meta_title {
-        margin: 0;
+        @include type_body_header_small();
+        font-size: 0.8em;
       }
 
       .meta_description {
@@ -77,18 +96,3 @@ $issues_body_list_item: (
   }
 }
 
-.issues_body_list_item {
-  padding-left: $base_spacing;
-  padding-top: $base_spacing;
-}
-
-.issues_body_list_item_a {
-  &:hover {
-    color: white;
-    // transition: all 0.25s ease-in-out;
-
-    .issues_body_list_item {
-      background: black;
-    }
-  }
-}

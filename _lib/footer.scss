@@ -12,7 +12,7 @@
 }
 
 .site_footer_title {
-  font-size: $base-font-size * $rhythm_down_1;
+  @include type_body_header_small();
   margin-bottom: $base_spacing_down_1;
 }
 
@@ -35,9 +35,13 @@
 .site_footer_endnote {
   @include grid-column(12);
   display: block;
-  margin-bottom: $base-spacing;
+  margin: $base_spacing_mobile auto;
   overflow: hidden;
   text-align: center;
+
+  @include grid-media($neat-grid-tablet) {
+    margin: $base_spacing_desktop auto;
+  }
 }
 
 .site_footer_brand_logo {

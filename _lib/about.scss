@@ -1,6 +1,9 @@
 .about_body_title {
+  margin: 0 auto $base_spacing_mobile;
+
   @include grid-media($neat-grid-desktop) {
     @include grid-column(12);
+    margin: 0 auto $base_spacing_desktop;
   }
 }
 
@@ -25,8 +28,8 @@
 
 .secondary_column {
   h4 {
+    @include type_body_header_small();
     margin-bottom: $base_spacing_down_1;
-    font-size: $base-font-size * $rhythm_down_1;
     display: inline-block;
     border-bottom: $base-border;
     padding-bottom: $base_spacing_down_2;

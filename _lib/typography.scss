@@ -17,12 +17,11 @@ $rhythm_down_2: 0.5;
   font-family: $font_face;
   font-size: $font-size * $rhythm_up_1;
   line-height: $base-font-size * 1.25;
-  margin: 0 auto $base_spacing_mobile;
+  margin: 0 auto;
 
   @include grid-media($neat-grid-tablet) {
     font-size: $base-font-size * $rhythm_up_3;
     line-height: $base-font-size * 1.25;
-    margin: 0 auto $base_spacing_desktop;
   }
 }
 
@@ -30,27 +29,30 @@ $rhythm_down_2: 0.5;
   font-family: $font_face;
   font-size: $base-font-size * $rhythm_up_1;
   line-height: $base-font-size * $rhythm_up_1 * 1.25;
-  margin: 0 auto $base_spacing_mobile;
+  margin: 0 auto;
 
   @include grid-media($neat-grid-tablet) {
     font-size: $base-font-size * $rhythm_up_2;
     line-height: $base-font-size * 1.25;
-    margin: 0 auto $base_spacing_desktop;
   }
 }
 
 @mixin type_body_header($font_face: $serif-secondary) {
   font-family: $font_face;
-  font-size: $base-font-size;
   letter-spacing: 1px;
   line-height: $base-font-size * .8;
   text-transform: uppercase;
-  margin: 0 auto $base_spacing;
+  font-size: $base-font-size;
+  margin: 0 auto;
+}
 
-  @include grid-media($neat-grid-tablet) {
-    font-size: $base-font-size * .8;
-    margin: 0 auto $base_spacing_up_1;
-  }
+@mixin type_body_header_small() {
+  font-family: $serif-secondary;
+  letter-spacing: 1px;
+  line-height: $base-font-size * .8;
+  text-transform: uppercase;
+  font-size: $base-font-size * $rhythm_down_1;
+  margin: 0 auto;
 }
 
 @mixin type_body_large($font_face: $serif-secondary) {
@@ -86,7 +88,6 @@ $rhythm_down_2: 0.5;
   margin: 0 auto $base_spacing;
 
   @include grid-media($neat-grid-tablet) {
-    font-size: $base-font-size;
     margin: 0 auto $base_spacing_up_1;
   }
 }
@@ -107,17 +108,20 @@ h6 {
   @include type_body_header();
 }
 
-
 p,
 small,
 caption,
-li,
-figure {
+li {
   @include type_body_normal();
 }
 
 small {
   @include type_body_small();
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 a {

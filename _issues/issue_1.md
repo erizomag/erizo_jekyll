@@ -4,6 +4,7 @@ page_title: Issue 1
 release_year: 2017
 image: "/uploads/Erizo%201-5635db.jpg"
 price: "$15.00"
+store_url: "https://erizo.bigcartel.com/product/erizo-issue-1"
 toc_poetry:
   title: Poetry
   description: |

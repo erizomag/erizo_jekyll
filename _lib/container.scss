@@ -1,11 +1,16 @@
+body {
+  margin: 0;
+}
+
 .container {
   @include grid-container;
   @include margin(null auto);
-  max-width: 64rem;
+  max-width: 72rem;
   position: relative;
 }
 
 .container_body {
+
   @include grid-column(12);
   display: block;
   overflow: hidden;
@@ -16,6 +21,3 @@
   }
 }
 
-body {
-  margin: 0;
-}

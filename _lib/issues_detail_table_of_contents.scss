@@ -1,6 +1,5 @@
 .issue_detail_table_of_contents {
   @include grid-column(12);
-  @include grid-collapse();
   border-top: $base-border;
   padding-top: $base_spacing_mobile;
 

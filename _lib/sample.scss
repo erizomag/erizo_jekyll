@@ -1,0 +1,139 @@
+.sample_container {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+
+  -webkit-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+  scroll-snap-destination: 0% 0%;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.sample_block {
+  background: red;
+  flex: 0 0 auto;
+  width: 100vw;
+
+  -webkit-scroll-snap-coordinate: 0% 0%;
+  -ms-scroll-snap-coordinate: 0% 0%;
+  scroll-snap-coordinate: 0% 0%;
+
+}
+
+.sample_block.green {
+  background: green;
+}
+
+.sample_block.teal {
+  background: teal;
+}
+
+.sample_block.blue {
+  background: blue;
+}
+
+.sample_block.white {
+  background: white;
+}
+
+.sample_block_content {
+  padding: $base_spacing_mobile;
+
+  @include grid-media($neat-grid-tablet) {
+    padding: $base_spacing_desktop;
+  }
+}
+
+// 2-Column Text Layout
+.txt_col_2 {
+  display: flex;
+  justify-content: space-between;
+
+  .col {
+    flex: 1;
+  }
+
+  figcaption {
+    margin-bottom: $base_spacing_desktop;
+  }
+
+  .lang_desc,
+  .work_title,
+  .work_author {
+    display: block;
+  }
+}
+
+// Generic Typography
+.sample_block {
+  .lang_desc {
+    color: #AAAAAA;
+    font-family: $sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 0.85em;
+  }
+  
+  .work_title {
+    font-family: $serif-primary;
+    font-size: 2em;
+    line-height: 1.35;
+  }
+
+  .work_author {
+    font-family: $serif-primary;
+    font-size: $base-font-size * $rhythm_down_1;
+  }
+
+  .work_author.translator {
+    font-style: oblique;
+
+    em {
+      font-style: normal;
+    }
+  }
+
+  .work_body.poetry {
+    font-size: $base-font-size * $rhythm_down_1;
+  }
+}
+
+
+// 1-Column Full Image Layout
+.img_full {
+  .img_container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+    figure {
+      height: 80vh;
+
+      img {
+        height: inherit;
+        width: 100%;
+        object-fit: contain;
+        padding: $base_spacing_desktop;
+      }
+    }
+
+    figcaption {
+      height: 20vh;
+    }
+  }
+}

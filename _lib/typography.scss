@@ -112,7 +112,8 @@ h6 {
 p,
 small,
 caption,
-li {
+a
+{
   @include type_body_normal();
 }
 
@@ -134,6 +135,7 @@ a {
 
   &:hover {
     color: $link-hover-color;
+    cursor: pointer;
     text-decoration: underline;
   }
 

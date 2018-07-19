@@ -1,7 +1,8 @@
 [class^="btn-"] {
   box-sizing: border-box;
   display: block;
-  font-size: $base-font-size * .8;
+  font-family: $serif-secondary;
+  font-size: $base-font-size;
   padding-bottom: $base_spacing_down_2;
   padding-left: 0;
   padding-right: 0;
@@ -39,5 +40,20 @@ a.btn-secondary {
   &:hover {
     color: $link-hover-color;
     border-color: lighten($link-hover-color, 20%);
+  }
+}
+
+a.btn-secondary-inverse {
+  color: $base-background-color;
+  font-weight: 600;
+  background-color: $black;
+  border: 3px solid $base-background-color;
+  transition: all 0.25s ease;
+
+  &:hover {
+    color: $black;
+    background-color: white;
+    border-color: white;
+    // transform: scale(1.05);
   }
 }

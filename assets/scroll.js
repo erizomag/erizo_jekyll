@@ -1,26 +1,31 @@
-$(function() {
-  var controller = new ScrollMagic.Controller();
+$(function () {
+  var panelHeight = $(".sample_block").height();
+  var panelWidth = $(".sample_block").width();
 
-  new ScrollMagic.Scene({
-    duration: 100,
-    offset: 50
-    })
-    .setPin(".container")
-    .addTo(controller);
+  $(".cta_nav_to_index").click(function(e){
+    e.preventDefault();
 
-  controller.addScene(scene);
+    $("body").removeClass("default_splash");
 
+    $("html, body").animate({
+      scrollTop: $(".container").offset().top},
+      1000, function() {
+    });
+
+    $(".container").addClass("active");
+    $(".sample_slideshow_nav").removeClass("active");
+  });
+
+
+  $(".cta_nav_to_slideshow").click(function(e){
+    e.preventDefault();
+
+    $(".sample_container").animate({
+      scrollLeft: "+=" + panelWidth},
+      1000, function() {
+        $(".sample_slideshow_nav").addClass("active");
+    });
+
+    $("body").addClass("default_splash");
+  });
 });
-
-// change vertical scroll to horizontal in content
-let content: ?HTMLElement = document.querySelector('.sample_container')
-window.addEventListener('mousewheel', MouseWheelHandler);
-
-function MouseWheelHandler(e) {
-  if(content === undefined) {
-    content = document.querySelector('.sample_container')
-  } else {
-    // $FlowFixMe
-    content.scrollLeft += e.deltaY
-  }
-}

@@ -16,9 +16,11 @@
 .site_header_text_logo {
   font-size: $base-font-size * $rhythm_up_1;
   text-transform: uppercase;
+  letter-spacing: 1px;
   margin: 0;
 }
 
 .site_header_text_logo a {
+  font-family: $serif-primary;
   text-decoration: none;
 }

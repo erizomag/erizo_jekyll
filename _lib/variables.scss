@@ -29,6 +29,7 @@ $neat-grid-desktop-large: (
 // Colors
 $black: #222222;
 $dark-grey: #555555;
+$light-grey: #777777;
 $red: #D0021B;
 $blue: #1C71D8;
 $white: #FFFFFF;
@@ -48,5 +49,5 @@ $link-visited-color: $base-font-color;
 $link-active-color: $accent-font-color;
 
 // Border
-$base-border-width: 2px;
+$base-border-width: 3px;
 $base-border: $base-border-width solid $base-font-color;

@@ -28,7 +28,7 @@ $rhythm_down_2: 0.5;
 @mixin type_sub_header($font_face: $serif-secondary) {
   font-family: $font_face;
   font-size: $base-font-size * $rhythm_up_1;
-  line-height: $base-font-size * $rhythm_up_1 * 1.25;
+  line-height: $base-font-size * 1.25;
   margin: 0 auto;
 
   @include grid-media($neat-grid-tablet) {
@@ -112,7 +112,10 @@ h6 {
 p,
 small,
 caption,
-a
+li,
+li a,
+a,
+p a
 {
   @include type_body_normal();
 }

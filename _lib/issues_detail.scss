@@ -39,7 +39,6 @@
 
   @include grid-media($neat-grid-tablet) {
     margin-bottom: $base_spacing_desktop;
-    align-items: center;
     flex-direction: row;
   }
 }

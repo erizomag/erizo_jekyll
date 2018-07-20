@@ -1,6 +1,5 @@
 .issue_detail_table_of_contents {
   @include grid-column(12);
-  border-top: $base-border;
   padding-top: $base_spacing_mobile;
 
 
@@ -19,6 +18,7 @@
 }
 
 .table_of_contents_column_title {
+  font-family: $sans-serif;
   margin-bottom: $base-spacing;
 }
 

@@ -1,6 +1,6 @@
 $serif-primary: "BagnardRegular", "georgia";
 $serif-secondary: "utopia-std", "georgia";
-$sans-serif: "Helvetica", "Arial";
+$sans-serif: "acumin-pro", "Helvetica", "Arial";
 $base-font-size: 1.25em;
 
 $rhythm_up_4 : 4;
@@ -113,11 +113,14 @@ p,
 small,
 caption,
 li,
-li a,
 a,
 p a
 {
   @include type_body_normal();
+}
+
+li a {
+  font-size: $base-font-size / $base-font-size;
 }
 
 small {

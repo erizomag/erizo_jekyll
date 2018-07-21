@@ -9,9 +9,11 @@ layout: default
 
   <div class="issues_body_list_item">
 
-    <figure class="issues_body_list_item_image">
-      <img src="{{ i.image }}" />
-    </figure>
+    <a href="{{ i.url }}">
+      <figure class="issues_body_list_item_image">
+        <img src="{{ i.image }}" />
+      </figure>
+    </a>
 
     <div class="issues_body_list_item_description">
       <a href="{{ i.url }}">

@@ -23,13 +23,12 @@
   margin-left: 0;
   margin-right: 0;
   margin-bottom: $base_spacing_desktop / 2;
+  overflow: hidden;
 
   @include grid-media($neat-grid-tablet) {
     max-height: 320px;
   }
-}
 
-.issues_body_list_item_image {
   img {
     @include clearfix;
     width: 100%;
@@ -37,6 +36,13 @@
     height: auto;
     flex: 1;
     object-fit: cover;
+    transition: all .25s ease-in;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
   }
 }
 

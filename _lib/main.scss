@@ -27,3 +27,9 @@
 .home_body_content_title {
   text-align: center;
 }
+
+.home_body_content_description {
+  p {
+    @include type_body_large();
+  }
+}

@@ -22,39 +22,37 @@ layout: default
   </div>
 
   <div class="issue_detail_meta_body">
+    <div class="issue_detail_meta_body_content">
+      <ul class="issue_detail_meta_list">
+        {% if page.price %}
+          <li class="issue_detail_meta_list_item">
+            <h3 class="issue_detail_meta_title">
+              Price
+            </h3>
+            <p class="issue_detail_meta_description">
+              {{ page.price }}
+            </p>
+          </li>
+        {% endif %}
 
-    <ul class="issue_detail_meta_list">
+        {% if page.release_year %}
+          <li class="issue_detail_meta_list_item">
+            <h3 class="issue_detail_meta_title">
+              Release
+            </h3>
+            <p class="issue_detail_meta_description">
+              {{ page.release_year }}
+            </p>
+          </li>
+        {% endif %}
+      </ul>
 
-      {% if page.price %}
-        <li class="issue_detail_meta_list_item">
-          <h4 class="issue_detail_meta_title">
-            Price
-          </h4>
-          <p class="issue_detail_meta_description">
-            {{ page.price }}
-          </p>
-        </li>
-      {% endif %}
-
-      {% if page.release_year %}
-        <li class="issue_detail_meta_list_item">
-          <h4 class="issue_detail_meta_title">
-            Release
-          </h4>
-          <p class="issue_detail_meta_description">
-            {{ page.release_year }}
-          </p>
-        </li>
-      {% endif %}
-
-    </ul>
-
-    <div class="issue_detail_meta_cta">
-      <a href="{{ page.store_url }}" target="_blank" class="btn-base">
-        Order {{ page.title }}
-      </a>
+      <div class="issue_detail_meta_cta">
+        <a href="{{ page.store_url }}" target="_blank" class="btn-secondary">
+          Order {{ page.title }}
+        </a>
+      </div>
     </div>
-
   </div>
 
   <div class="issue_detail_table_of_contents">

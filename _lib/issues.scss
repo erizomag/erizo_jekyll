@@ -2,50 +2,31 @@
   padding-left: 0;
 }
 
-.issues_body_list_item_a {
-  @include grid-column(12);
-  @include grid-collapse();
-  padding-top: $base_spacing_mobile;
-  padding-bottom: $base_spacing_mobile;
-  padding-left: $base_spacing_mobile;
-  padding-right: $base_spacing_mobile;
-
-  @include grid-media($neat-grid-tablet) {
-    padding-top: $base_spacing_desktop;
-    padding-bottom: $base_spacing_desktop;
-    padding-left: $base_spacing_desktop;
-    padding-right: $base_spacing_desktop;
-  }
-
-  &:hover,
-  &:active {
-    color: white;
-    transition: all 0.25s ease-in-out;
-    background: black;
-    text-decoration: none;
-  }
-}
-
 .issues_body_list_item {
-  @include grid-media($neat-grid-tablet) {
-    align-items: center;
-    display: flex;
-    margin-bottom: $base_spacing_desktop;
-  }
-}
-
-.issues_body_list_item_image,
-.issues_body_list_item_description {
-  @include grid-column(12);
-
   @include grid-media($neat-grid-tablet) {
     @include grid-column(6);
   }
 }
 
+// .issues_body_list_item_image,
+// .issues_body_list_item_description {
+//   @include grid-column(12);
+//
+//   @include grid-media($neat-grid-tablet) {
+//     @include grid-column(6);
+//   }
+// }
+//
 .issues_body_list_item_image {
+  display: flex;
+  max-height: 240px;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: $base_spacing_desktop / 2;
+
+  @include grid-media($neat-grid-tablet) {
+    max-height: 320px;
+  }
 }
 
 .issues_body_list_item_image {
@@ -54,12 +35,16 @@
     width: 100%;
     max-width: 100%;
     height: auto;
+    flex: 1;
+    object-fit: cover;
   }
 }
 
 .issues_body_list_item_description {
+  text-align: center;
+
   .title {
-    @include type_sub_header();
+    text-align: center;
   }
 
   .description {
@@ -67,12 +52,18 @@
   }
 
   .meta_list {
+    display: flex;
+    flex-direction: row;
     padding-left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+
+    > li {
+      flex: 1;
+    }
 
     .meta_list_item {
-      display: inline-block;
       list-style-type: none;
-      margin-right: $base-spacing * 2;
 
       .meta_title {
         @include type_body_header_small();

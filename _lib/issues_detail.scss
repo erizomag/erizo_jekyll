@@ -28,6 +28,13 @@
 
 .issue_detail_meta_description {
   margin: 0;
+
+}
+
+.issue_detail_excerpt {
+  p {
+    @include type_body_large();
+  }
 }
 
 .issue_detail_meta_body {
@@ -39,12 +46,27 @@
 
   @include grid-media($neat-grid-tablet) {
     margin-bottom: $base_spacing_desktop;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  &:after {
+    content: "";
+    // display: block;
+    margin: 0 auto;
+    width: 360px;
+    padding-top: $base_spacing_desktop;
+    border-bottom: $base-border;
   }
 }
 
+.issue_detail_meta_body_content {
+  display: flex;
+  justify-content: center;
+}
+
 .issue_detail_meta_title {
-  @include type_body_header_small();
+  @include type_body_header();
+  font-family: $sans-serif;
 }
 
 .issue_detail_meta_list,
@@ -59,12 +81,9 @@
     display: inline-block;
     list-style-type: none;
     margin-right: $base-spacing * 2;
-    text-align: left;
+    text-align: center;
   }
 }
 
 .issue_detail_meta_cta {
-  .btn-base {
-    font-size: $base-font-size * 1.25;
-  }
 }

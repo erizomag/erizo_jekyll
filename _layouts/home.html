@@ -15,9 +15,9 @@ layout: default_splash
         {{ site.issues[featured_issue_id].title }}
       </h1>
 
-      <p class="home_body_content_description">
-        {{ site.issues[featured_issue_id].excerpt }}
-      </p>
+      <div class="home_body_content_description">
+        {{ site.issues[featured_issue_id].excerpt | markdownify  }}
+      </div>
 
       <ul class="issues_action_row">
         <li class="issues_action_row_item">

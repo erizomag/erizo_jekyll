@@ -1,7 +1,7 @@
 $serif-primary: "BagnardRegular", "georgia";
 $serif-secondary: "utopia-std", "georgia";
 $sans-serif: "acumin-pro", "Helvetica", "Arial";
-$base-font-size: 1.25em;
+$base-font-size: 16pt;
 
 $rhythm_up_4 : 4;
 $rhythm_up_3 : 3;
@@ -15,25 +15,25 @@ $rhythm_down_2: 0.5;
     $font-size: $base-font-size,
   ) {
   font-family: $font_face;
-  font-size: $font-size * $rhythm_up_2;
-  line-height: $base-font-size * 1.25;
+  font-size: $font-size * $rhythm_up_1;
+  line-height: 1.25;
   margin: 0 auto;
 
   @include grid-media($neat-grid-tablet) {
     font-size: $base-font-size * $rhythm_up_3;
-    line-height: $base-font-size * 1.25;
+    line-height: 1.25;
   }
 }
 
 @mixin type_sub_header($font_face: $serif-secondary) {
   font-family: $font_face;
   font-size: $base-font-size * $rhythm_up_1;
-  line-height: $base-font-size * 1.25;
+  line-height: 1.25;
   margin: 0 auto;
 
   @include grid-media($neat-grid-tablet) {
     font-size: $base-font-size * $rhythm_up_2;
-    line-height: $base-font-size * 1.25;
+    line-height: 1.25;
   }
 }
 
@@ -47,7 +47,7 @@ $rhythm_down_2: 0.5;
 }
 
 @mixin type_body_header_small() {
-  font-family: $serif-secondary;
+  font-family: $sans-serif;
   letter-spacing: 1px;
   line-height: $base-font-size * .8;
   text-transform: uppercase;
@@ -58,13 +58,13 @@ $rhythm_down_2: 0.5;
 @mixin type_body_large($font_face: $serif-secondary) {
   font-family: $font_face;
   font-size: $base-font-size;
-  line-height: $base-font-size * 1.25;
+  line-height: 1.65;
   margin: 0 auto $base_spacing;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
 
   @include grid-media($neat-grid-tablet) {
-    font-size: $base-font-size * $rhythm_up_2;
+    font-size: $base-font-size * $rhythm_up_1;
     margin: 0 auto $base_spacing_up_1;
   }
 }
@@ -72,7 +72,7 @@ $rhythm_down_2: 0.5;
 @mixin type_body_normal($font_face: $serif-secondary) {
   font-family: $font_face;
   font-size: $base-font-size;
-  line-height: $base-font-size * 1.25;
+  line-height: 1.65;
   margin: 0 auto $base_spacing;
   white-space: initial;
 
@@ -85,7 +85,7 @@ $rhythm_down_2: 0.5;
 @mixin type_body_small($font_face: $serif-secondary) {
   font-family: $font_face;
   font-size: $base-font-size * $rhythm_down_1;
-  line-height: $base-font-size * 1.25;
+  line-height: 1.65;
   margin: 0 auto $base_spacing;
 
   @include grid-media($neat-grid-tablet) {
@@ -104,8 +104,7 @@ h2 {
 }
 
 h3,
-h4,
-h6 {
+h4 {
   @include type_body_header();
 }
 
@@ -113,14 +112,9 @@ p,
 small,
 caption,
 li,
-a,
-p a
+a
 {
   @include type_body_normal();
-}
-
-li a {
-  font-size: $base-font-size / $base-font-size;
 }
 
 small {
@@ -133,6 +127,10 @@ figure {
 
 cite {
   font-style: initial;
+}
+
+p a {
+  text-decoration: underline;
 }
 
 a {

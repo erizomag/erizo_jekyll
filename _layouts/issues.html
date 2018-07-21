@@ -6,51 +6,58 @@ layout: default
 
   {% for i in site.issues reversed %}
 
-  <a href="{{ i.url }}" class="issues_body_list_item_a">
 
-    <div class="issues_body_list_item">
+  <div class="issues_body_list_item">
 
-      <figure class="issues_body_list_item_image">
-        <img src="{{ i.image }}" />
-      </figure>
+    <figure class="issues_body_list_item_image">
+      <img src="{{ i.image }}" />
+    </figure>
 
-      <div class="issues_body_list_item_description">
-        <h2 class="title">
+    <div class="issues_body_list_item_description">
+      <a href="{{ i.url }}">
+        <h1 class="title">
           {{ i.title }}
-        </h2>
+        </h1>
+      </a>
 
-        <div class="description">
-          {{ i.content | markdownify | truncate: 160 }}
-        </div>
+      <!-- <div class="description"> -->
+      <!--   {{ i.content | markdownify | truncate: 160 }} -->
+      <!-- </div> -->
+      <!--  -->
+      <ul class="meta_list">
 
-        <ul class="meta_list">
+        {% if i.price %}
+          <li class="meta_list_item">
+            <h4 class="meta_title">
+              Price
+            </h4>
+            <p class="meta_description">
+              {{ i.price }}
+            </p>
+          </li>
+        {% endif %}
 
-          {% if i.price %}
-            <li class="meta_list_item">
-              <h4 class="meta_title">
-                Price
-              </h4>
-              <p class="meta_description">
-                {{ i.price }}
-              </p>
-            </li>
-          {% endif %}
+        {% if i.release_year %}
+          <li class="meta_list_item">
+            <h4 class="meta_title">
+              Release
+            </h4>
+            <p class="meta_description">
+              {{ i.release_year }}
+            </p>
+          </li>
+        {% endif %}
 
-          {% if i.release_year %}
-            <li class="meta_list_item">
-              <h4 class="meta_title">
-                Release
-              </h4>
-              <p class="meta_description">
-                {{ i.release_year }}
-              </p>
-            </li>
-          {% endif %}
+        <li class="meta_list_item">
+          <a href="{{ i.store_url }}" target="_blank" class="btn-secondary">
+            Order
+          </a>
+        </li>
 
-        </ul>
-      </div>
+
+      </ul>
     </div>
-  </a>
+  </div>
 
   {% endfor %}
 </section>

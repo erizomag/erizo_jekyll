@@ -10,11 +10,18 @@ layout: default
   </div>
   <div class="about_body_content">
     <div class="main_column">
-      {{ page.submission_description | markdownify }}
-      {{ content }}
+      <div class="submission_info">
+        {{ content }}
+      </div>
+      <div class="credits_description">
+        {{ page.credits_description | markdownify }}
+      </div>
+      <div class="support_info">
+        {{ page.support_description | markdownify }}
+      </div>
     </div>
-    <div class="secondary_column">
-      {{ page.credits_description | markdownify }}
-    </div>
+    <!-- <div class="secondary_column"> -->
+    <!--   {{ page.credits_description | markdownify }} -->
+    <!-- </div> -->
   </div>
 </section>

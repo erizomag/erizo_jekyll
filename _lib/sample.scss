@@ -26,15 +26,17 @@
 }
 
 .sample_block.title {
-  background: $black;
   color: white;
   display: flex;
-  height: 100vh;
   flex-direction: column;
-  padding: 1em;
+  justify-content: flex-start;
+  width: 100vw;
 
-  @include grid-media($neat-grid-tablet) {
+  @include grid-media($neat-grid-desktop) {
     flex-direction: row;
+    height: 100vh;
+    padding: 1em;
+    display: flex;
     padding: 0;
   }
 }
@@ -54,7 +56,6 @@
   bottom: -100%;
   left: 1em;
   right: 1em;
-  width: 100%;
   color: $black;
 
   .cta_nav_to_index {
@@ -118,7 +119,13 @@
 
 .title_base {
   background: $black;
-  width: 90vw;
+  // flex: 1 1 auto;
+  padding: 2em 1em 0 1em;
+
+  @include grid-media($neat-grid-tablet) {
+    width: auto;
+    padding: 2em 1em 2em 1em;
+  }
 
   @include grid-media($neat-grid-desktop) {
     width: 65vw;
@@ -131,23 +138,30 @@
     white-space: normal;
     height: 100%;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 1em auto;
 
     @include grid-media($neat-grid-tablet) {
+      margin: 1em;
+      width: 90vw;
+    }
+
+    @include grid-media($neat-grid-desktop) {
       margin: 4em auto 0;
       width: 80%;
     }
 
     .site_header_text_logo {
-      padding-bottom: 1.5em;
+      padding-bottom: 1em;
+      margin-bottom: 1em;
       border-bottom: 3px solid white;
-      margin-bottom: 1.5em;
       display: inline-block;
       width: fit-content;
       align-self: flex-start;
       font-size: 1.5em;
+
+      @include grid-media($neat-grid-tablet) {
+        padding-bottom: 1.5em;
+        margin-bottom: 1.5em;
+      }
     }
 
     .subline_desc_en,
@@ -189,7 +203,11 @@
       transition: all 0.25s ease-in;
 
       @include grid-media($neat-grid-tablet) {
+        display: block;
         opacity: 1.0;
+      }
+
+      @include grid-media($neat-grid-desktop) {
         display: inline-block;
         float: right;
       }
@@ -202,42 +220,74 @@
 }
 
 .title_secondary {
-  width: 90vw;
   background: $black;
   color: white;
-  padding: 0;
 
-  @include grid-media($neat-grid-desktop) {
+  @include grid-media($neat-grid-tablet) {
     background: white;
     color: $black;
-    width: 35vw;
-    padding: 2em;
+    width: 100%;
   }
 
-  p {
-    font-size: 1.0em;
+  @include grid-media($neat-grid-desktop) {
+    width: 35vw;
+  }
+
+  .title_secondary_content {
+    padding: 1em;
+
+    @include grid-media($neat-grid-tablet) {
+      padding: 2em;
+    }
 
     @include grid-media($neat-grid-desktop) {
+      padding: 2em;
+    }
+
+    p {
       font-size: 1.0em;
-      margin-top: 6em;
+
+      @include grid-media($neat-grid-tablet) {
+        font-size: 1em;
+        margin-top: 1em;
+      }
+
+      @include grid-media($neat-grid-desktop) {
+        margin-top: 6em;
+      }
     }
   }
 }
 
 .cta_nav_to_slideshow {
-  position: absolute;
-  right: 1em;
-  top: 50%;
+  @include btn_secondary_inverse();
+  display: block;
+  position: relative;
 
   i {
     padding-right: 0.25em;
     padding-left: 0.25em;
+  }
+
+  @include grid-media($neat-grid-tablet) {
+    @include btn_secondary();
+    display: block;
+  }
+
+  @include grid-media($neat-grid-desktop) {
+    position: absolute;
+    right: 1em;
+    top: 50%;
   }
 }
 
 .cta_nav_to_index {
   i {
     padding-right: 0.25em;
+  }
+
+  @include grid-media($neat-grid-desktop) {
+    @include btn_secondary();
   }
 }
 

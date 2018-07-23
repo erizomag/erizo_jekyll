@@ -8,15 +8,6 @@
   }
 }
 
-// .issues_body_list_item_image,
-// .issues_body_list_item_description {
-//   @include grid-column(12);
-//
-//   @include grid-media($neat-grid-tablet) {
-//     @include grid-column(6);
-//   }
-// }
-//
 .issues_body_list_item_image {
   display: flex;
   max-height: 240px;

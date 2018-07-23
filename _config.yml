@@ -38,3 +38,7 @@ plugins:
 sass:
   sass_dir: _lib
   style: compressed
+
+
+site_description_en: "a journal of the arts publishes new poetry and visual art from the Americas."
+site_description_es: "un diario de las artes publica nueva poesísia y arte de las Américas"

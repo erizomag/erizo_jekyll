@@ -16,13 +16,18 @@
 }
 
 .sample_container.active {
-  overflow-x: hidden;
+  overflow-x: scroll;
   overflow-y: hidden;
+
+  @include grid-media($neat-grid-tablet) {
+    overflow-x: hidden;
+  }
 
   .sample_block {
     border-bottom: $base-border;
     overflow-y: scroll;
   }
+
 }
 
 .sample_container.hidden {
@@ -96,16 +101,18 @@
 
 .sample_slideshow_right_nav,
 .sample_slideshow_left_nav {
-  position: fixed;
-  opacity: 0;
-  top: 45%;
-  // display: none;
-  transition: all 0.35s ease-in;
+  display: none;
 
-  &.active {
-    top: 50%;
-    // display: block;
-    opacity: 1.0;
+  @include grid-media($neat-grid-tablet) {
+    position: fixed;
+    opacity: 0;
+    top: 45%;
+    transition: all 0.35s ease-in;
+
+    &.active {
+      top: 50%;
+      opacity: 1.0;
+    }
   }
 }
 
@@ -402,8 +409,14 @@
 
   .img_container {
     // height: 90vh;
-    padding: 2em 8em;
+    padding: 1em;
     overflow: inherit;
+
+    @include grid-media($neat-grid-tablet) {
+      padding: 2em 8em;
+    }
+
+    
 
     figure {
       // display: flex;

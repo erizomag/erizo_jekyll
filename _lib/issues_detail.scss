@@ -51,7 +51,6 @@
 
   &:after {
     content: "";
-    // display: block;
     margin: 0 auto;
     width: 360px;
     padding-top: $base_spacing_desktop;
@@ -62,6 +61,12 @@
 .issue_detail_meta_body_content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
+  @include grid-media($neat-grid-tablet) {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .issue_detail_meta_title {
@@ -71,7 +76,8 @@
 
 .issue_detail_meta_list,
 .issue_detail_meta_cta {
-  display: inline-block;
+  // display: inline-block;
+  display: flex;
 }
 
 .issue_detail_meta_list {

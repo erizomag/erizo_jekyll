@@ -27,13 +27,13 @@
     margin: 0 auto 0.5em;
 
     @include grid-media($neat-grid-tablet) {
-      text-align: right;
-      padding-right: 1em;
+      padding-left: 2em;
     }
 
     em {
       font-family: $serif-secondary;
       font-size: $base-font-size;
+      font-weight: 600;
       text-transform: uppercase;
       font-style: normal;
     }
@@ -62,6 +62,10 @@
     font-size: $base-font-size * $rhythm_down_1;
     font-weight: 400;
     font-style: normal;
+
+    @include grid-media($neat-grid-tablet) {
+      padding-left: 2em;
+    }
   }
 }
 

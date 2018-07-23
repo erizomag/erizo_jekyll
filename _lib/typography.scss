@@ -1,6 +1,6 @@
 $serif-primary: "BagnardRegular", "georgia";
 $serif-secondary: "utopia-std", "georgia";
-$sans-serif: "acumin-pro", "Helvetica", "Arial";
+$sans-serif: "nimbus-sans", "Helvetica", "Arial";
 $base-font-size: 16pt;
 
 $rhythm_up_4 : 4;
@@ -150,10 +150,6 @@ a {
     color: $link-hover-color;
     cursor: pointer;
     text-decoration: underline;
-  }
-
-  &:visited {
-    color: $link-visited-color;
   }
 
   &:active {

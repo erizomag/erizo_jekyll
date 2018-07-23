@@ -40,7 +40,7 @@ $rhythm_down_2: 0.5;
 @mixin type_body_header($font_face: $serif-secondary) {
   font-family: $font_face;
   letter-spacing: 1px;
-  line-height: $base-font-size * .8;
+  line-height: 1.25;
   text-transform: uppercase;
   font-size: $base-font-size;
   margin: 0 auto;
@@ -49,7 +49,7 @@ $rhythm_down_2: 0.5;
 @mixin type_body_header_small() {
   font-family: $sans-serif;
   letter-spacing: 1px;
-  line-height: $base-font-size * .8;
+  line-height: 1.25;
   text-transform: uppercase;
   font-size: $base-font-size * $rhythm_down_1;
   margin: 0 auto;
@@ -131,6 +131,10 @@ cite {
 
 p a {
   text-decoration: underline;
+
+  &:hover {
+    color: blue;
+  }
 }
 
 a {

@@ -1,4 +1,4 @@
-[class^="btn-"] {
+@mixin base_btn {
   box-sizing: border-box;
   display: block;
   font-family: $sans-serif;
@@ -6,11 +6,12 @@
   text-transform: uppercase;
   font-weight: 600;
   padding-bottom: $base_spacing_down_2;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
   padding-top: $base_spacing_down_2;
   margin-bottom: 0;
   text-align: center;
+  text-overflow: ellipsis;
   width: 100%;
   transition: all 0.25s ease;
 
@@ -25,6 +26,10 @@
   }
 }
 
+[class^="btn-"] {
+  @include base_btn();
+}
+
 a.btn-base {
   color: $base-background-color;
   background-color: $base-font-color;
@@ -33,6 +38,32 @@ a.btn-base {
   &:hover {
     background-color: $link-hover-color;
     border-color: $link-hover-color;
+  }
+}
+
+@mixin btn_secondary {
+  @include base_btn();
+  color: $link-base-color;
+  background-color: rgba(255,255,255,0.5);
+  border: $base-border;
+
+  &:hover {
+    background-color: rgba(0,0,0,0.05);
+    border: $base-border;
+  }
+}
+
+@mixin btn_secondary_inverse {
+  @include base_btn();
+  color: $base-background-color;
+  font-weight: 600;
+  background-color: $black;
+  border: 3px solid $base-background-color;
+
+  &:hover {
+    color: $black;
+    background-color: white;
+    border-color: white;
   }
 }
 
@@ -56,6 +87,5 @@ a.btn-secondary-inverse {
     color: $black;
     background-color: white;
     border-color: white;
-    // transform: scale(1.05);
   }
 }

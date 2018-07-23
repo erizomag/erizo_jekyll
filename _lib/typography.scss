@@ -108,6 +108,11 @@ h4 {
   @include type_body_header();
 }
 
+h5,
+h6 {
+  margin: 0 auto;
+}
+
 p,
 small,
 caption,

@@ -105,6 +105,7 @@
 
   @include grid-media($neat-grid-tablet) {
     position: fixed;
+    display: block;
     opacity: 0;
     top: 45%;
     transition: all 0.35s ease-in;
@@ -227,13 +228,15 @@
     }
 
     .cta_nav_to_index {
-      display: none;
+      // display: none;
       transition: all 0.25s ease-in;
+      display: block;
+      opacity: 1.0;
 
-      @include grid-media($neat-grid-tablet) {
-        display: block;
-        opacity: 1.0;
-      }
+      // @include grid-media($neat-grid-tablet) {
+      //   display: block;
+      //   opacity: 1.0;
+      // }
 
       @include grid-media($neat-grid-desktop) {
         display: inline-block;

@@ -1,10 +1,18 @@
 body {
   margin: 0;
   overflow-y: auto;
+  
+  .container {
+    display: block;
+  }
 }
 
 body.default_splash {
-  overflow-y: hidden;
+  // overflow-y: hidden;
+
+  .container {
+    display: none;
+  }
   // overflow-y: auto;
   //
   // @include grid-media($neat-grid-tablet) {

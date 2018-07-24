@@ -4,11 +4,12 @@ body {
 }
 
 body.default_splash {
-  overflow-y: auto;
-
-  @include grid-media($neat-grid-tablet) {
-    overflow-y: hidden;
-  }
+  overflow-y: hidden;
+  // overflow-y: auto;
+  //
+  // @include grid-media($neat-grid-tablet) {
+  //   overflow-y: hidden;
+  // }
 }
 
 .container {
@@ -17,14 +18,14 @@ body.default_splash {
   max-width: 72rem;
   position: relative;
 
-  // opacity: 0.5;
-  // padding-top: 40px;
-  // transition: all 1.5s ease;
-  //
-  // &.active {
-  //   opacity: 1.0;
-  //   padding-top: 0;
-  // }
+  opacity: 0.5;
+  padding-top: 40px;
+  transition: all 1.5s ease;
+
+  &.active {
+    opacity: 1.0;
+    padding-top: 0;
+  }
 }
 
 .container_body {

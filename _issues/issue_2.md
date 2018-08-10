@@ -7,7 +7,7 @@ price: "$15.00"
 store_url: https://erizo.bigcartel.com/product/erizo-issue-2
 toc_poetry:
   title: Poetry
-  description: Check back soon for a list of contributors!
+  description: "¡Vuelve pronto para una lista de contribuyentes!"
 toc_art:
   title: Art
   description: "¡Vuelve pronto para una lista de contribuyentes!"

@@ -2,7 +2,7 @@
 title: Issue 2
 page_title: Issue 2
 release_year: 2018
-image: "/uploads/work%20in%20progress.gif"
+image: "/uploads/ERIZO2_COVERTESTS_01.jpg"
 price: "$15.00"
 store_url: https://erizo.bigcartel.com/product/erizo-issue-2
 toc_poetry:

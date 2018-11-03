@@ -29,15 +29,47 @@ toc_poetry:
     Greenberg_\n\n* Flores"
 toc_art:
   title: Art
-  description: "#### Alejandra Prieto\n* Extracción de la piedra de locura.\n#####
-    Dibujo, Escultura y Texto.\n\n---\n\n#### Fernando Palma\n* Fragmentos del cuento
-    Inimeli in coyotl ihuan icihuahua in cemechin y Kittenmiow en el país de las banderas.
-    \n##### Pintura digital.\n\n---\n\n#### Fabiola Menchelli\n* Ellipse. \n#####
-    Fotografía análoga.\n\n---\n\n#### DINO DINCO\n* Beyond Killing. \n##### Text
-    and Image.\n\n---\n\n#### Kandis Williams\n* Notes on Love. \n##### Text and Collage.\n\n---\n\n####
-    Biquini Wax EPS\n* dibujos mágico feudales a lo largo de la publicación.\n#####
-    Dibujo."
+  description: |
+    #### SANGREE
+    * Últimos Días revisited
+    ##### Imágenes.
+
+    ---
+
+    #### Lourdes Grobert
+    * Oriente/Occidente
+    ##### Fotos y texto.
+
+    ---
+
+    #### Demian Schopf
+    * Locus Amoenus / Trinitas - Babel / Hrön
+    ##### Imagenes y texto.
+
+    ---
+
+    #### Israel Urmeer
+    * Fábulas de la guerra Nue
+    ##### Imágenes
+
+    ---
+
+    #### Patricia Dominguez
+    * Líneas cambia-formas
+    ##### Texto and Imágenes.
+
+    ---
+
+    #### Virginia Colwell
+    * Sin titulo
+    ##### Texto y Imágenes
+
+    ---
+
+    #### Ektor Garcia y Amanda Wong
+    * dibujos a lo largo de la publicación.
+    ##### Dibujos.
 layout: issue_detail
 ---
 
-Issue 2 of Erizo is forthcoming and available for pre-order.
+Issue 2 is available now for preorder!

@@ -27,7 +27,7 @@ description: 'A Journal of the Arts is a bilingual publication of new poetry and
   Américas.
 
 '
-baseurl: ''
+baseurl: 
 github_username: erizo_mag
 store_url: https://erizo.bigcartel.com
 permalink: "/"

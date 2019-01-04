@@ -29,46 +29,43 @@ toc_poetry:
     Greenberg_\n\n* Flores"
 toc_art:
   title: Art
-  description: |
+  description: |-
     #### SANGREE
     * Últimos Días revisited
-    ##### Imágenes.
 
     ---
 
-    #### Lourdes Grobert
+    #### Lourdes Grobet
     * Oriente/Occidente
-    ##### Fotos y texto.
+    Traducción al español por _Yolanda Muñoz_
 
     ---
 
     #### Demian Schopf
-    * Locus Amoenus / Trinitas - Babel / Hrön
-    ##### Imagenes y texto.
+    * Locus Amoenus / Trinitas
+    Traducción al español por _Chloé Wilcox_
 
     ---
 
     #### Israel Urmeer
-    * Fábulas de la guerra Nue
-    ##### Imágenes
+    * Fábulas de la Guerra Yōkai
 
     ---
 
-    #### Patricia Dominguez
+    #### Patricia Domínguez
     * Líneas cambia-formas
-    ##### Texto and Imágenes.
+    Traducción al español por _Rafaela Simon_
 
     ---
 
     #### Virginia Colwell
-    * Sin titulo
-    ##### Texto y Imágenes
+    * Mon Amour
+    Traducción al español por _Pilar Villela_
 
     ---
 
     #### Ektor Garcia y Amanda Wong
     * dibujos a lo largo de la publicación.
-    ##### Dibujos.
 layout: issue_detail
 ---
 

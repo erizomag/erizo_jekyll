@@ -38,6 +38,5 @@ plugins:
 sass:
   sass_dir: _lib
   style: compressed
-site_description_en: a journal of the arts publishes new poetry and visual art from
-  the Americas.
-site_description_es: un diario de las artes publica nueva poesísia y arte de las Américas
+site_description_en: a journal publishing new poetry and visual art from the Americas
+site_description_es: un diario publicando nueva poesía y arte de las Américas

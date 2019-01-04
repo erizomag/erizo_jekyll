@@ -4,8 +4,7 @@ permalink: "/"
 featured_issue: 2
 footer_column_1:
   title: About Erizo
-  description: 'Erizo: A Journal of the Arts publishes new poetry and art from across
-    the Americas.'
+  description: Erizo publishes new poetry and visual art from across the Americas.
 footer_column_2:
   title: Submission and Contact
   description: To submit poems or visual art, or to inquire about translating, please

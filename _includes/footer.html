@@ -3,37 +3,32 @@
 
 		<section class="col_2">
 			<h3 class="site_footer_title">
-			  About Erizo
         {{ site.footer_column_1.title }}
 			</h3>
       <div class="site_footer_body">
         <p>
-          {{ site.footer_column_1 }}
-          {{ page.title['Home'].footer_column_1.description }}
+          {{ site.footer_column_1.description }}
         </p>
       </div>
     </section>
 
 		<section class="col_2">
 			<h3 class="site_footer_title">
-			  Submission and Contact
         {{ site.footer_column_2.title }}
 			</h3>
 			<p class="site_footer_body">
         {{ site.footer_column_2.description }}
-        To submit poems or visual art, or to inquire about translating, please email us at editors@erizoerizo.com. We are also interested
-        collaborations between poets and artists.
 			</p>
     </section>
   </section>
 
   <section class="site_footer_endnote">
     <h3 class="site_footer_brand_logo">
-      Erizo
+      {{ site.title }}
     </h3>
 
     <small class="site_footer_endnote_content">
-      Copyright Erizo, 2017-2018. All Rights Reserved.
+      {{ site.copyright }}
     </small>
   </section>
 </footer>

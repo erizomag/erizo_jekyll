@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: "/"
-featured_issue: 1
+featured_issue: 2
 footer_column_1:
   title: About Erizo
   description: Erizo is a journal of the arts publishes new poetry and art from across

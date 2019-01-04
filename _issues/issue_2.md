@@ -36,14 +36,16 @@ toc_art:
     ---
 
     #### Lourdes Grobet
-    * Oriente/Occidente
     Traducción al español por _Yolanda Muñoz_
+
+    * Oriente/Occidente
 
     ---
 
     #### Demian Schopf
-    * Locus Amoenus / Trinitas
     Traducción al español por _Chloé Wilcox_
+
+    * Locus Amoenus / Trinitas
 
     ---
 
@@ -53,14 +55,16 @@ toc_art:
     ---
 
     #### Patricia Domínguez
-    * Líneas cambia-formas
     Traducción al español por _Rafaela Simon_
+
+    * Líneas cambia-formas
 
     ---
 
     #### Virginia Colwell
-    * Mon Amour
     Traducción al español por _Pilar Villela_
+
+    * Mon Amour
 
     ---
 

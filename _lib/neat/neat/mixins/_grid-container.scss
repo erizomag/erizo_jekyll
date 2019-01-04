@@ -1,9 +1,0 @@
-@charset "UTF-8";
-
-@mixin grid-container($grid: $neat-grid) {
-  &::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-}

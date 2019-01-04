@@ -43,3 +43,12 @@ site_description_es: un diario publicando nueva poesía y arte de las Américas
 splash_introduction: 'A selection of works from the first issue of Erizo: Biquini
   Wax EPS, Mónica de la Torre, Daniel Saldaña París, Alejandra Prieto, Fernando Palma,
   Jessica O. Marsh, and Tatiana Lipkes.'
+footer_column_1:
+  title: About Erizo
+  description: Erizo publishes new poetry and visual art from the Americas.
+footer_column_2:
+  title: Submission and Contact
+  description: |-
+    To submit poems or visual art, or to inquire about translating, please email us at editors@erizoerizo.com. We are also interested
+    collaborations between poets and artists.
+site_copyright: Copyright Erizo, 2017-2019. All Rights Reserved.

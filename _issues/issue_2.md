@@ -24,7 +24,7 @@ toc_poetry:
     al español por _Mariana Rodríguez_\n\n* Handwritten Story of an Afternoon Spent
     Talking With The Microwave\n* Today Even The Sewers are Sick to Their Stomachs\n*
     Parable of the Perfect Translator\n\n---\n\n#### Margaret Randall\nTraducción
-    al español por _María Vazquez Valdez_\n\n* Made Rich by Art and Revolution\n*
+    al español por _María Vázquez Valdez_\n\n* Made Rich by Art and Revolution\n*
     The Cup's Handle \n\n---\n\n#### Carla Faesler\nTranslated to English by _Adam
     Greenberg_\n\n* Flores"
 toc_art:

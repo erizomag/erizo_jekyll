@@ -73,4 +73,4 @@ toc_art:
 layout: issue_detail
 ---
 
-Issue 2 is available now for preorder!
+Issue 2 is now available!
